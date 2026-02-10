@@ -1,3 +1,3 @@
-# Estilo amati
+# página maquetados
 
-Este es el repositorio web de Estilo amati, para alojar el website 
+Este es el repositorio web de maquetados "el buen sergio"
