@@ -744,14 +744,28 @@ ul {
 
 .totalbox__1 {
 	position: relative;
-	flex: 1 1 45%;
+	flex: 0 0 33.333%;
+	/* Exactly 1/3 for text */
 	justify-content: center;
-	/* Restore default centering */
 	align-items: center;
 	height: auto;
 	width: auto;
 
-	margin: 2vh 2%;
+	margin: 0;
+	min-width: 250px;
+	padding: 2vh 3vw;
+}
+
+.totalbox__2 {
+	position: relative;
+	flex: 0 0 66.666%;
+	/* Exactly 2/3 for images/sliders */
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	width: auto;
+
+	margin: 0;
 	min-width: 250px;
 }
 
@@ -762,31 +776,35 @@ ul {
 	align-items: flex-start;
 }
 
-/* Responsive adjustments for generic blocks (Home) */
-@media (max-width: 900px) {
-	.totalbox__1 {
-		flex: 0 0 100%;
-		margin: 2vh 0;
-	}
+/* Specific adjustment for blocks that only have text (totalbox__0) */
+.totalbox__0 {
+	flex: 1 1 100%;
+	width: 100%;
 }
 
-@media (max-width: 600px) {
+/* Responsive adjustments for generic blocks (Home) */
+@media (max-width: 900px) {
 	.totalbox-svg .totalbox__1 {
 		flex: 0 0 100%;
 	}
 }
 
+/* Portfolio Layout: Text 1/3, Image 2/3. Stacked on mobile with text on top */
+@media (max-width: 1024px) {
 
-.totalbox__2 {
-	position: relative;
-	flex: 2;
-	justify-content: center;
-	align-items: center;
-	height: auto;
-	width: auto;
+	.totalbox,
+	.totalbox-white {
+		flex-direction: column !important;
+		padding: 5vh 5vw;
+	}
 
-	margin: 3vw 1.5vw 3vw 1.5vw;
-	min-width: 250px;
+	.totalbox__1,
+	.totalbox__2 {
+		flex: 0 0 100%;
+		width: 100%;
+		padding: 2vh 0;
+		text-align: center;
+	}
 }
 
 
