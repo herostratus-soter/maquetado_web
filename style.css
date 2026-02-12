@@ -744,22 +744,35 @@ ul {
 
 .totalbox__1 {
 	position: relative;
-	flex: 0 0 45%;
-	/* Force 2 per row by default (2x2 grid) */
-	justify-content: flex-start;
-	align-items: flex-start;
+	flex: 1 1 45%;
+	justify-content: center;
+	/* Restore default centering */
+	align-items: center;
 	height: auto;
 	width: auto;
 
 	margin: 2vh 2%;
-	min-width: 240px;
+	min-width: 250px;
 }
 
-/* Responsive adjustments */
+/* Isolated 2x2 grid ONLY for the Service Info SVG section */
+.totalbox-svg .totalbox__1 {
+	flex: 0 0 45%;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/* Responsive adjustments for generic blocks (Home) */
+@media (max-width: 900px) {
+	.totalbox__1 {
+		flex: 0 0 100%;
+		margin: 2vh 0;
+	}
+}
+
 @media (max-width: 600px) {
 	.totalbox-svg .totalbox__1 {
 		flex: 0 0 100%;
-		margin: 2vh 0;
 	}
 }
 
@@ -1422,6 +1435,19 @@ img {
 	margin: 0;
 	padding: 0 0 0 30vmin;
 	top: 70%;
+}
+
+/* Mobile fix for sliders */
+@media (max-width: 768px) {
+
+	.sliderbox_alto,
+	.sliderbox_bajo {
+		padding: 0 5vw;
+		/* Remove huge side padding */
+		top: 50%;
+		/* Center vertically more safely */
+		text-align: center;
+	}
 }
 
 
