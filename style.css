@@ -899,7 +899,7 @@ ul {
 
 	height: auto;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 	padding: 8vmin 0 8vmin 0;
 	margin: 0 10vw 0 10vw;
 
