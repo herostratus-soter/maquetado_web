@@ -72,7 +72,7 @@
     <!-- header ...............................-->
 
     <header class="sticky">
-        <nav class="header__nav">
+        <nav class="header__nav" id="main-nav">
 
             <div class="header__nav--"><a class="header__nav--div" href="#"
                     onclick="showSection('proyectos')">Portafolio</a></div>
@@ -80,7 +80,8 @@
             <div class="header__nav--"><a class="header__nav--div" href="#"
                     onclick="showSection('servicio')">Servicios</a></div>
 
-            <div class="header__nav--"><a class="header__nav--divlogo" href="#" onclick="showSection('index')">
+            <div class="header__nav-- header__nav--logo" id="logo-mobile-container"><a class="header__nav--divlogo"
+                    href="#" onclick="showSection('index')">
                     <img src="img/logo_completo.svg" class="header_logo">
                 </a></div>
 
@@ -90,6 +91,14 @@
             <div class="header__nav--"><a class="header__nav--div" href="#"
                     onclick="showSection('tecnologia')">Aliados</a></div>
         </nav>
+
+        <button class="hamburger-sophisticated" id="hamburger-btn" onclick="toggleMenu()">
+            <div class="hamburger-box">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+        </button>
 
         <div class="header__line">
             <div class="separador"></div>
@@ -1050,6 +1059,12 @@
     <script>
         // Función para mostrar la sección seleccionada y ocultar las demás
         function showSection(sectionId) {
+            // Cerrar menú móvil si está abierto
+            const nav = document.getElementById('main-nav');
+            const btn = document.getElementById('hamburger-btn');
+            if (nav) nav.classList.remove('active');
+            if (btn) btn.classList.remove('active');
+
             // Guardar la sección actual en localStorage
             localStorage.setItem('currentSection', sectionId);
             // Obtener todas las secciones
