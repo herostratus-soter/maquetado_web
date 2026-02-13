@@ -364,7 +364,7 @@ h2 {
 h3 {
 	position: relative;
 	margin: 1vh 0 1vh 0;
-	padding: 0 0 0 5vw;
+	padding: 0 0 0 2vw;
 	text-decoration: none;
 	color: var(--ink-black);
 	/* Text in black as requested */
@@ -587,7 +587,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 
-	padding: 8vmin 8vw 8vmin 8vw;
+	padding: 8vmin 5vw;
 	border-radius: 0;
 	background-color: transparent;
 	border-bottom: 1px solid var(--ink-black);
@@ -612,7 +612,7 @@ ul {
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	padding: 8vmin 8vw 8vmin 8vw;
+	padding: 8vmin 5vw;
 	border-radius: 0;
 
 	/* Removed double borders as requested */
@@ -744,34 +744,45 @@ ul {
 
 .totalbox__1 {
 	position: relative;
-	flex: 0 0 33.333%;
-	/* Exactly 1/3 for text */
+	flex: 1;
 	justify-content: center;
 	align-items: center;
 	height: auto;
 	width: auto;
 
-	margin: 0;
+	margin: 3vh 3%;
 	min-width: 250px;
-	padding: 2vh 3vw;
 }
 
 .totalbox__2 {
 	position: relative;
-	flex: 0 0 66.666%;
-	/* Exactly 2/3 for images/sliders */
+	flex: 2;
 	justify-content: center;
 	align-items: center;
 	height: auto;
 	width: auto;
 
-	margin: 0;
+	margin: 2vh 2%;
 	min-width: 250px;
+}
+
+/* Portfolio specific: 1/3 text, 2/3 images */
+.portfolio .totalbox__1 {
+	flex: 0 0 33.333%;
+	margin: 0;
+	padding: 2vh 3vw;
+}
+
+.portfolio .totalbox__2 {
+	flex: 0 0 66.666%;
+	margin: 0;
+	padding: 2vh 3vw;
 }
 
 /* Isolated 2x2 grid ONLY for the Service Info SVG section */
 .totalbox-svg .totalbox__1 {
 	flex: 0 0 45%;
+	margin: 2vh 2%;
 	justify-content: flex-start;
 	align-items: flex-start;
 }
@@ -811,16 +822,14 @@ ul {
 .totalbox__0 {
 	position: relative;
 	display: block;
-	/* Ensure it behaves as a block */
 	justify-content: center;
 	align-items: center;
 	height: auto;
-	width: 100%;
-	/* Force full width to keep it on top */
+	width: auto;
+	flex: 1 1 100%;
 	text-align: center;
-	/* Center content */
 
-	margin: 0 0 5vh 0;
+	margin: 3vh 3%;
 	min-width: 250px;
 }
 
@@ -1004,7 +1013,6 @@ footer {
 	align-items: center;
 	padding: 15vh 9vw;
 	background-color: transparent;
-	border-top: 1px solid var(--ink-black);
 }
 
 .footer-col {
@@ -1219,7 +1227,17 @@ img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 0;
+	/* Universal frame style */
+	border: 2px solid var(--ink-black);
+	padding: 28px;
+	background-color: #fff;
+	filter: sepia(0.2) contrast(1.1);
+}
 
+/* Reduce height of portfolio images */
+.portfolio .galeria img {
+	max-height: 65vh;
+	object-fit: cover;
 }
 
 .slick-slider {
@@ -1229,14 +1247,13 @@ img {
 
 .slick-dots {
 	position: absolute;
-	bottom: 1.5vh;
+	bottom: 0.5vh;
+	/* Moved up slightly into the image */
 	width: 100%;
 	text-align: center;
 	list-style: none;
 	padding: 0;
 	margin: 0;
-
-
 }
 
 .slick-dots li {
@@ -1245,7 +1262,8 @@ img {
 }
 
 .slick-prev {
-	left: 1vw;
+	left: 0.3vw;
+	/* Moved slightly more in */
 	/* Ajusta la posición izquierda de la flecha previa */
 	z-index: 1;
 	color: var(--ink-black);
@@ -1254,12 +1272,21 @@ img {
 }
 
 .slick-prev:before {
+	content: '‹';
 	color: var(--ink-black);
-	font-size: 20px;
+	font-size: 40px;
+	font-family: Arial, sans-serif;
+	opacity: 1;
+	line-height: 1;
+}
+
+.slick-prev:hover:before {
+	color: var(--sepia-accent);
 }
 
 .slick-next {
-	right: 1vw;
+	right: 0.3vw;
+	/* Moved slightly more in */
 	/* Ajusta la posición derecha de la flecha siguiente */
 	z-index: 1;
 	color: var(--ink-black);
@@ -1268,8 +1295,16 @@ img {
 }
 
 .slick-next:before {
+	content: '›';
 	color: var(--ink-black);
-	font-size: 20px;
+	font-size: 40px;
+	font-family: Arial, sans-serif;
+	opacity: 1;
+	line-height: 1;
+}
+
+.slick-next:hover:before {
+	color: var(--sepia-accent);
 }
 
 .slick-dots li button:before {
@@ -1317,7 +1352,7 @@ img {
 
 	height: 70vh;
 	border-radius: 0;
-	border: 2px solid var(--ink-black);
+	border: none;
 	animation: animate_slider01 10s infinite;
 }
 
@@ -1330,7 +1365,7 @@ img {
 
 	height: 70vh;
 	border-radius: 0;
-	border: 2px solid var(--ink-black);
+	border: none;
 	animation: animate_slider02 10s infinite;
 }
 
@@ -1343,7 +1378,7 @@ img {
 
 	height: 70vh;
 	border-radius: 0;
-	border: 2px solid var(--ink-black);
+	border: none;
 	animation: animate_slider03 10s infinite;
 }
 
@@ -1356,7 +1391,7 @@ img {
 
 	height: 70vh;
 	border-radius: 0;
-	border: 2px solid var(--ink-black);
+	border: none;
 	animation: animate_slider04 10s infinite;
 }
 
@@ -1369,7 +1404,7 @@ img {
 
 	height: 70vh;
 	border-radius: 0;
-	border: 2px solid var(--ink-black);
+	border: none;
 	animation: animate_slider05 10s infinite;
 }
 
@@ -1485,8 +1520,8 @@ img {
 	/* Semi-transparent white background */
 	background-color: rgba(255, 255, 255, 0.85);
 
-	/* Simple border */
-	border: 1px solid var(--ink-black);
+	/* No border */
+	border: none;
 	box-shadow: none;
 
 	margin: 0;
