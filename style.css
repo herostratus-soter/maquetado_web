@@ -1241,7 +1241,7 @@ footer {
 	border-radius: 0;
 	/* Clean frame - thickened */
 	border: 2px solid var(--ink-black);
-	padding: 10px;
+	padding: 28px;
 	/* Photo frame gap - thickened distance */
 	background-color: #fff;
 	filter: sepia(0.3) contrast(1.1);
@@ -1257,6 +1257,8 @@ footer {
 .img_svg2 {
 	position: relative;
 	border-radius: 0;
+	padding: 28px;
+	background-color: #fff;
 	border: 2px solid var(--ink-black);
 	/*margin:5vmax 0 0 0;*/
 	width: 100%;
