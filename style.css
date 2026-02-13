@@ -551,7 +551,7 @@ h5 {
 	letter-spacing: 0.2vw;
 	font-family: 'Old Standard TT', serif;
 	font-weight: auto;
-	font-size: 2vmin;
+	font-size: 2.4vmin;
 }
 
 p {
@@ -562,7 +562,7 @@ p {
 	letter-spacing: 0.02vw;
 	font-family: 'Old Standard TT', serif;
 	font-weight: 400;
-	font-size: 2.4vmin;
+	font-size: 2.8vmin;
 	line-height: 1.6;
 	text-align: justify;
 }
@@ -1071,7 +1071,7 @@ ul {
 	/*color: #ecb67aff;*/
 	letter-spacing: 0.1vw;
 	font-weight: 700;
-	font-size: 1.80vmin;
+	font-size: 2.20vmin;
 	text-align: left;
 	margin: 20px 0 20px 0;
 	min-height: 8.5vmin;
@@ -1091,7 +1091,7 @@ ul {
 	/*color: #ecb67aff;*/
 	letter-spacing: 0.1vw;
 	font-weight: 700;
-	font-size: 1.87vmin;
+	font-size: 2.30vmin;
 	text-align: left;
 	margin: 20px 0 20px 0;
 	min-height: 8.5vmin;
@@ -1178,7 +1178,7 @@ footer {
 .footer-col h5 {
 	text-align: center;
 	margin: 0;
-	font-size: 1.8vmin;
+	font-size: 2.2vmin;
 }
 
 @media (max-width: 900px) {
