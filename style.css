@@ -828,7 +828,7 @@ ul {
 	align-items: flex-start;
 	/* Corrected: Align items to top to prevent vertical jumping */
 
-	padding: 2vmin 12vw 2vmin 12vw;
+	padding: 2vmin 5vw 2vmin 5vw;
 }
 
 
