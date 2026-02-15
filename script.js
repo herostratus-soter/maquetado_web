@@ -108,7 +108,7 @@ var TEXTOS_WEB = {
     },
     "servicio": {
         // # SECCIÓN 1: Cabecera Servicios
-        "h1": "El Proceso Editorial",
+        "h1": "tmp",
         "h3_1": "De la palabra al libro",
 
         // # SECCIÓN 2: Intro Proceso
