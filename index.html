@@ -43,12 +43,12 @@
 
 
 
-    <!-- Vincular el archivo script.js -->
-    <script src="script.js"></script>
     <!-- Vincular jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Vincular Slick Slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Vincular el archivo script.js -->
+    <script src="script.js"></script>
 
 
 
@@ -74,22 +74,23 @@
     <header class="sticky">
         <nav class="header__nav" id="main-nav">
 
-            <div class="header__nav--"><a class="header__nav--div" href="#"
-                    onclick="showSection('proyectos')">Portafolio</a></div>
+            <div class="header__nav--"><a class="header__nav--div" href="#" onclick="showSection('proyectos')"
+                    data-text-id="header.a_1"></a></div>
 
-            <div class="header__nav--"><a class="header__nav--div" href="#"
-                    onclick="showSection('servicio')">Servicios</a></div>
+            <div class="header__nav--"><a class="header__nav--div" href="#" onclick="showSection('servicio')"
+                    data-text-id="header.a_2"></a></div>
 
             <div class="header__nav-- header__nav--logo" id="logo-mobile-container"><a class="header__nav--divlogo"
                     href="#" onclick="showSection('index')">
                     <img src="img/logo_completo.svg" class="header_logo">
                 </a></div>
 
-            <div class="header__nav--"><a class="header__nav--div" href="#" onclick="showSection('estilo')">Nosotros</a>
+            <div class="header__nav--"><a class="header__nav--div" href="#" onclick="showSection('estilo')"
+                    data-text-id="header.a_3"></a>
             </div>
 
-            <div class="header__nav--"><a class="header__nav--div" href="#"
-                    onclick="showSection('tecnologia')">Aliados</a></div>
+            <div class="header__nav--"><a class="header__nav--div" href="#" onclick="showSection('tecnologia')"
+                    data-text-id="header.a_4"></a></div>
         </nav>
 
         <button class="hamburger-sophisticated" id="hamburger-btn" onclick="toggleMenu()">
@@ -123,8 +124,8 @@
         <div class="slideralto1">
             <div class="sliderbox_alto">
                 <article class="sliderbox__into--purple">
-                    <h1>Videodrome Estudio</h1>
-                    <h3>Servicios de Maquetación y Diseño</h3>
+                    <h1 data-text-id="index.h1"></h1>
+                    <h3 data-text-id="index.h3_1"></h3>
                 </article>
             </div>
         </div>
@@ -134,13 +135,10 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2>Composición y Diagramación</h2>
-                <h3>La arquitectura de la página.</h3>
-                <p>La maquetación organiza el contenido en el soporte. Se atienden variables como la mancha tipográfica,
-                    el ritmo de lectura y la jerarquía visual. El tratamiento de líneas viudas y huérfanas, así como el
-                    tracking y kerning, responde a criterios de legibilidad y estética clásica.<br><br>Se busca una
-                    estructura clara que facilite la experiencia de lectura.</p>
-                <a href="#" onclick="showSection('servicio')" class="button_w">Ver Servicios</a>
+                <h2 data-text-id="index.h2_1"></h2>
+                <h3 data-text-id="index.h3_2"></h3>
+                <p data-text-id="index.p_1"></p>
+                <a href="#" onclick="showSection('servicio')" class="button_w" data-text-id="index.a_1"></a>
             </article>
 
             <div class="totalbox__1">
@@ -167,13 +165,10 @@
             </div>
 
             <article class="totalbox__1">
-                <h2 class="dg">Identidad Visual y Cubiertas</h2>
-                <h3 class="g">Semiótica de la imagen.</h3>
-                <p class="bl">Desarrollo conceptual para la identidad del libro. La cubierta funciona como síntesis del
-                    contenido. <br><br>Exploración técnica mediante ilustración, fotografía, modelado 3D o herramientas
-                    generativas, bajo la dirección de arte adecuada para cada proyecto. Adaptación para formatos
-                    impresos y digitales.</p>
-                <a href="#" onclick="showSection('proyectos')" class="button_br">Ver Portafolio</a>
+                <h2 class="dg" data-text-id="index.h2_2"></h2>
+                <h3 class="g" data-text-id="index.h3_3"></h3>
+                <p class="bl" data-text-id="index.p_2"></p>
+                <a href="#" onclick="showSection('proyectos')" class="button_br" data-text-id="index.a_2"></a>
             </article>
         </div>
 
@@ -181,12 +176,10 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2>Gestión Legal y Administrativa</h2>
-                <h3>Formalización de la obra.</h3>
-                <p>Acompañamiento en el registro de ISBN y Derechos de Autor. <br><br>Configuración técnica de metadatos
-                    para distribución en plataformas como Amazon KDP y sincronización de regalías (Payoneer). Gestión
-                    administrativa del activo intelectual.</p>
-                <a href="#" onclick="showSection('estilo')" class="button_w">Información Legal</a>
+                <h2 data-text-id="index.h2_3"></h2>
+                <h3 data-text-id="index.h3_4"></h3>
+                <p data-text-id="index.p_3"></p>
+                <a href="#" onclick="showSection('estilo')" class="button_w" data-text-id="index.a_3"></a>
             </article>
 
             <div class="totalbox__1">
@@ -210,12 +203,10 @@
             </div>
 
             <article class="totalbox__1">
-                <h2 class="dg">Impresión Profesional</h2>
-                <h3 class="g">Producción física bajo demanda.</h3>
-                <p class="bl">Gestión de impresión bajo demanda. Selección de sustratos, encuadernación (rústica,
-                    cosida) y acabados especiales.<br><br>Control de calidad en la producción del libro como objeto
-                    físico. Supervisión de tintas y fidelidad de color.</p>
-                <a href="#" onclick="showSection('tecnologia')" class="button_br">Detalles técnicos</a>
+                <h2 class="dg" data-text-id="index.h2_4"></h2>
+                <h3 class="g" data-text-id="index.h3_5"></h3>
+                <p class="bl" data-text-id="index.p_4"></p>
+                <a href="#" onclick="showSection('tecnologia')" class="button_br" data-text-id="index.a_4"></a>
             </article>
         </div>
 
@@ -223,27 +214,25 @@
 
         <div class="totalbox">
             <article class="totalbox__0">
-                <h2>Corrección de Estilo</h2>
-                <h3>Referencia Profesional: Amparo Rozo</h3>
-                <p>La corrección ortotipográfica y de estilo es una disciplina independiente al diseño. Referimos el
-                    trabajo de Amparo Rozo, especialista en la materia, para asegurar la integridad gramatical y
-                    estilística del manuscrito. <br><br>Servicio externo sugerido.</p>
-                <a href="#" onclick="showSection('tecnologia')" class="button_w">Contacto Directo</a>
+                <h2 data-text-id="index.h2_5"></h2>
+                <h3 data-text-id="index.h3_6"></h3>
+                <p data-text-id="index.p_5"></p>
+                <a href="#" onclick="showSection('tecnologia')" class="button_w" data-text-id="index.a_5"></a>
             </article>
 
             <article class="totalbox__1">
                 <center><img class="img_svg" src="img/compas.svg" alt="Corrección">
-                    <h4 class="v">Revisión Ortotipográfica</h4>
+                    <h4 class="v" data-text-id="index.h4_1"></h4>
                 </center>
             </article>
             <article class="totalbox__1">
                 <center><img class="img_svg" src="img/diseño.svg" alt="Estilo">
-                    <h4 class="v">Corrección de Estilo</h4>
+                    <h4 class="v" data-text-id="index.h4_2"></h4>
                 </center>
             </article>
             <article class="totalbox__1">
                 <center><img class="img_svg" src="img/taladro.svg" alt="Escritura">
-                    <h4 class="v">Tutoría de Escritura</h4>
+                    <h4 class="v" data-text-id="index.h4_3"></h4>
                 </center>
             </article>
         </div>
@@ -254,15 +243,13 @@
             <div class="sliderbox_bajo">
 
                 <article class="sliderbox__into--violet">
-                    <h2>Historias Visuales</h2>
-                    <h3>Mira cómo transformamos textos en libros</h3>
-                    <a href="#" onclick="showSection('proyectos')" class="button_w">Ver Ejemplos
-                    </a>
+                    <h2 data-text-id="index.h2_6"></h2>
+                    <h3 data-text-id="index.h3_7"></h3>
+                    <a href="#" onclick="showSection('proyectos')" class="button_w" data-text-id="index.a_6"></a>
                 </article>
             </div>
         </div>
     </div>
-
 
     <!-- Sección proyectos -->
     <div id="proyectos" class="section hidden portfolio">
@@ -272,8 +259,8 @@
             <div class="sliderbox_bajo">
 
                 <article class="sliderbox__into--purple">
-                    <h1>Archivo de Proyectos</h1>
-                    <h3>Muestra de trabajos realizados</h3>
+                    <h1 data-text-id="proyectos.h1"></h1>
+                    <h3 data-text-id="proyectos.h3_1"></h3>
                 </article>
             </div>
         </div>
@@ -282,12 +269,9 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2>Novela: El Secreto de la Montaña</h2>
-
-                <h3>Maquetación compleja y diseño de cubierta</h3>
-
-                <p>Un proyecto desafiante con notas al pie, imágenes capitulares y una cubierta ilustrada digitalmente
-                    evocando el misterio de la trama.</p>
+                <h2 data-text-id="proyectos.h2_1"></h2>
+                <h3 data-text-id="proyectos.h3_2"></h3>
+                <p data-text-id="proyectos.p_1"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -303,10 +287,9 @@
 
         <div class="totalbox-white">
             <article class="totalbox__1">
-                <h2 class="dg">Colección Poética "Susurros"</h2>
-                <h3 class="g">Maquetación minimalista</h3>
-                <p class="bl">Para esta antología, optamos por una maquetación limpia, con abundante aire blanco y una
-                    tipografía serif clásica que respeta el ritmo de cada verso.</p>
+                <h2 class="dg" data-text-id="proyectos.h2_2"></h2>
+                <h3 class="g" data-text-id="proyectos.h3_3"></h3>
+                <p class="bl" data-text-id="proyectos.p_2"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -323,12 +306,9 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2>Ensayo Académico</h2>
-
-                <h3>Gestión de citas y bibliografía</h3>
-
-                <p>Un trabajo riguroso de jerarquización de contenidos, índices complejos y tablas de datos, optimizado
-                    para impresión académica.</p>
+                <h2 data-text-id="proyectos.h2_3"></h2>
+                <h3 data-text-id="proyectos.h3_4"></h3>
+                <p data-text-id="proyectos.p_3"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -343,11 +323,9 @@
 
         <div class="totalbox-white">
             <article class="totalbox__1">
-                <h2 class="dg">Novela Histórica "El Escriba"</h2>
-                <h3 class="g">Diseño de colección literaria</h3>
-                <p class="bl">Propuesta gráfica para serie de novelas históricas. Uso de tipografía clásica, capitulares
-                    ornamentadas y papel ahuesado para evocar la época de la narración sin perder legibilidad moderna.
-                </p>
+                <h2 class="dg" data-text-id="proyectos.h2_4"></h2>
+                <h3 class="g" data-text-id="proyectos.h3_5"></h3>
+                <p class="bl" data-text-id="proyectos.p_4"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -362,12 +340,9 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2 class="dg">Saga Fantasía "Reinos de Luz"</h2>
-
-                <h3>Dirección de arte para trilogía</h3>
-
-                <p>Desarrollo de identidad visual completa para saga juvenil. Ilustración de portadas, mapas interiores
-                    detallados y maquetación con elementos gráficos en los encabezados.</p>
+                <h2 class="dg" data-text-id="proyectos.h2_5"></h2>
+                <h3 data-text-id="proyectos.h3_6"></h3>
+                <p data-text-id="proyectos.p_5"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -382,10 +357,9 @@
 
         <div class="totalbox-white">
             <article class="totalbox__1">
-                <h2 class="dg">Libro de Arte "Urbanscapes"</h2>
-                <h3 class="g">Gran formato y fotografía</h3>
-                <p class="bl">Edición de lujo (Coffee Table Book) enfocada en fotografía urbana. Maquetación minimalista
-                    con rejilla de 12 columnas para flexibilidad en la disposición de imágenes y textos bilingües.</p>
+                <h2 class="dg" data-text-id="proyectos.h2_6"></h2>
+                <h3 class="g" data-text-id="proyectos.h3_7"></h3>
+                <p class="bl" data-text-id="proyectos.p_6"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -408,13 +382,9 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2>Manual de Medicina Interna</h2>
-
-                <h3>Diseño editorial técnico y científico</h3>
-
-                <p>Maquetación compleja de 800 páginas con jerarquías estrictas. Gestión de tablas, gráficos
-                    vectoriales, índice analítico y referencias cruzadas. Prioridad absoluta en la claridad de la
-                    información.</p>
+                <h2 data-text-id="proyectos.h2_7"></h2>
+                <h3 data-text-id="proyectos.h3_8"></h3>
+                <p data-text-id="proyectos.p_7"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -434,10 +404,9 @@
 
         <div class="totalbox-white">
             <article class="totalbox__1">
-                <h2 class="dg">Memorias "Voces del Pasado"</h2>
-                <h3 class="g">Biografía y Archivo</h3>
-                <p class="bl">Restauración digital de fotografías antiguas y composición de texto corrido para libro de
-                    memorias familiares. Encuadernación en tapa dura con acabado en tela.</p>
+                <h2 class="dg" data-text-id="proyectos.h2_8"></h2>
+                <h3 class="g" data-text-id="proyectos.h3_9"></h3>
+                <p class="bl" data-text-id="proyectos.p_8"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -455,12 +424,9 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2>Cómic "Cyberpunk City"</h2>
-
-                <h3>Rotulación y maquetación de novela gráfica</h3>
-
-                <p>Ajuste de globos de texto, selección de fuentes para diálogos y onomatopeyas. Preparación de archivos
-                    para impresión en cuatricromía sobre papel estucado.</p>
+                <h2 data-text-id="proyectos.h2_9"></h2>
+                <h3 data-text-id="proyectos.h3_10"></h3>
+                <p data-text-id="proyectos.p_9"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -475,10 +441,9 @@
 
         <div class="totalbox-white">
             <article class="totalbox__1">
-                <h2 class="dg">Fanzine "Underground"</h2>
-                <h3 class="g">Diseño experimental independiente</h3>
-                <p class="bl">Proyecto autogestionado con estética Risograph. Uso de tipografías display, collage
-                    digital y retículas asimétricas para una publicación de cultura urbana.</p>
+                <h2 class="dg" data-text-id="proyectos.h2_10"></h2>
+                <h3 class="g" data-text-id="proyectos.h3_11"></h3>
+                <p class="bl" data-text-id="proyectos.p_10"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -494,12 +459,9 @@
 
         <div class="totalbox">
             <article class="totalbox__1">
-                <h2>Tesis Doctoral "Arquitectura Viva"</h2>
-
-                <h3>Formato académico institucional</h3>
-
-                <p>Adaptación a normas APA/IEEE. Maquetación sobria y estructurada para impresión de tesis. Generación
-                    de PDF interactivo con navegación por marcadores.</p>
+                <h2 data-text-id="proyectos.h2_11"></h2>
+                <h3 data-text-id="proyectos.h3_12"></h3>
+                <p data-text-id="proyectos.p_11"></p>
             </article>
             <div class="totalbox__2">
                 <div class="galeria">
@@ -516,8 +478,8 @@
         <div class="slideralto2">
             <div class="sliderbox_alto">
                 <article class="sliderbox__into--green">
-                    <h2>Arte conceptual e IA</h2>
-                    <h3>Innovación y experimentación de nuestro equipo de diseño</h3>
+                    <h2 data-text-id="proyectos.h2_12"></h2>
+                    <h3 data-text-id="proyectos.h3_13"></h3>
                 </article>
             </div>
         </div>
@@ -531,8 +493,8 @@
             <div class="sliderbox_bajo">
 
                 <article class="sliderbox__into--cyan">
-                    <h1>El Proceso Editorial</h1>
-                    <h3>De la palabra al libro</h3>
+                    <h1 data-text-id="servicio.h1"></h1>
+                    <h3 data-text-id="servicio.h3_1"></h3>
                 </article>
             </div>
         </div>
@@ -541,14 +503,11 @@
 
         <div class="totalbox">
             <article class="totalbox__0">
-                <h2>El Camino del Manuscrito</h2>
+                <h2 data-text-id="servicio.h2_1"></h2>
 
-                <h3>Un flujo de trabajo ordenado y transparente</h3>
+                <h3 data-text-id="servicio.h3_2"></h3>
 
-                <p>Convertir un texto en un libro requiere pasos precisos. No nos saltamos etapas. Cada fase asegura que
-                    el resultado final sea profesional y perdurable.
-
-
+                <p data-text-id="servicio.p_1"></p>
             </article>
         </div>
 
@@ -560,15 +519,11 @@
             <div class="totalbox-svg">
                 <article class="totalbox__1">
 
-                    <h2 class="br">1. Valoración</h2>
-
-                    <h3 class="g">Lectura del Material</h3>
-
-                    <p class="dg">Recibimos el manuscrito original. Evaluamos su extensión, estructura y necesidades
-                        específicas (imágenes, tablas, notas). Definimos el formato ideal y el presupuesto.</p>
-
+                    <h2 class="br" data-text-id="servicio.h2_2"></h2>
+                    <h3 class="g" data-text-id="servicio.h3_3"></h3>
+                    <p class="dg" data-text-id="servicio.p_2"></p>
                     <a id="whatsapp" href="https://wa.link/irxg7t" target="_blank" rel="noopener noreferrer"
-                        class="button_br">Enviar archivo</a>
+                        class="button_br" data-text-id="servicio.a_1"></a>
 
                 </article>
                 <div class="totalbox__1">
@@ -582,12 +537,9 @@
             <div class="totalbox-svg">
                 <article class="totalbox__1">
 
-                    <h2 class="br">2. Preparación</h2>
-
-                    <h3 class="g">Cuidado del Texto</h3>
-
-                    <p class="dg">Antes de diseñar, el texto debe estar limpio. Recomendamos una revisión
-                        ortotipográfica (alianza con Amparo Rozo) para asegurar la calidad literaria.</p>
+                    <h2 class="br" data-text-id="servicio.h2_3"></h2>
+                    <h3 class="g" data-text-id="servicio.h3_4"></h3>
+                    <p class="dg" data-text-id="servicio.p_3"></p>
 
                 </article>
                 <div class="totalbox__1">
@@ -601,12 +553,9 @@
             <div class="totalbox-svg">
                 <article class="totalbox__1">
 
-                    <h2 class="br">3. Maquetación</h2>
-
-                    <h3 class="g">Puesta en Página</h3>
-
-                    <p class="dg">Definición de la retícula y la tipografía. Composición del bloque de texto línea a
-                        línea. Ajuste de viudas, huérfanas y ríos.</p>
+                    <h2 class="br" data-text-id="servicio.h2_4"></h2>
+                    <h3 class="g" data-text-id="servicio.h3_5"></h3>
+                    <p class="dg" data-text-id="servicio.p_4"></p>
 
                 </article>
                 <div class="totalbox__1">
@@ -619,12 +568,9 @@
             <div class="totalbox-svg">
                 <article class="totalbox__1">
 
-                    <h2 class="br">4. Legal</h2>
-
-                    <h3 class="g">Trámites y Registros</h3>
-
-                    <p class="dg">Gestión del ISBN, Códigos de Barras y Depósito Legal. Preparación de metadatos para la
-                        distribución comercial.</p>
+                    <h2 class="br" data-text-id="servicio.h2_5"></h2>
+                    <h3 class="g" data-text-id="servicio.h3_6"></h3>
+                    <p class="dg" data-text-id="servicio.p_5"></p>
 
                 </article>
                 <div class="totalbox__1">
@@ -637,12 +583,9 @@
             <div class="totalbox-svg">
                 <article class="totalbox__1">
 
-                    <h2 class="br">5. Entrega</h2>
-
-                    <h3 class="g">Artes Finales</h3>
-
-                    <p class="dg">Exportación de PDFs de alta resolución (X-1a) para imprenta o ePub validados para
-                        tiendas digitales. Entrega de archivos maestros.</p>
+                    <h2 class="br" data-text-id="servicio.h2_6"></h2>
+                    <h3 class="g" data-text-id="servicio.h3_7"></h3>
+                    <p class="dg" data-text-id="servicio.p_6"></p>
 
                 </article>
                 <div class="totalbox__1">
@@ -655,32 +598,27 @@
 
         <div id="asesoria" class="totalbox-anchoreducido2">
             <article class="totalbox__0">
-                <h2>Servicios</h2>
-
-                <p>Esquemas modulares de trabajo según los requerimientos del proyecto.</p>
+                <h2 data-text-id="servicio.h2_7"></h2>
+                <p data-text-id="servicio.p_7"></p>
             </article>
 
             <!--- exp 1 ----------------------------->
 
             <article class="totalbox__1_buy">
-                <h4 class="dg">Diagramación Básica</h4>
+                <h4 class="dg" data-text-id="servicio.h4_1"></h4>
 
                 <center><img class="img_svg3" src="img/asesoria1_2.svg">
 
-                    <h5 class="dgreen">Texto corrido</h5>
+                    <h5 class="dgreen" data-text-id="servicio.h5_1"></h5>
                 </center>
 
                 <ul>
 
-                    <li class="buy">Diseño de caja de texto</li>
-
-                    <li class="buy2">Control de viudas/huérfanas</li>
-
-                    <li class="buy">Entrega PDF imprenta</li>
-
-                    <li class="buy">Entrega ePub básico</li>
-
-                    <li class="buy">$2 USD / página</li>
+                    <li class="buy" data-text-id="servicio.li_1_1"></li>
+                    <li class="buy2" data-text-id="servicio.li_1_2"></li>
+                    <li class="buy" data-text-id="servicio.li_1_3"></li>
+                    <li class="buy" data-text-id="servicio.li_1_4"></li>
+                    <li class="buy" data-text-id="servicio.li_1_5"></li>
 
                 </ul>
             </article>
@@ -688,24 +626,24 @@
             <!--- exp 2 ----------------------------->
 
             <article class="totalbox__1_buy">
-                <h4 class="dg">Diagramación Compleja</h4>
+                <h4 class="dg" data-text-id="servicio.h4_2"></h4>
 
                 <center><img class="img_svg3" src="img/asesoria2_2.svg">
 
-                    <h5 class="dgreen">Diseño complejo</h5>
+                    <h5 class="dgreen" data-text-id="servicio.h5_2"></h5>
                 </center>
 
                 <ul>
 
-                    <li class="buy">Notas al pie / Tablas</li>
+                    <li class="buy" data-text-id="servicio.li_2_1"></li>
 
-                    <li class="buy2">Imágenes / Gráficos</li>
+                    <li class="buy2" data-text-id="servicio.li_2_2"></li>
 
-                    <li class="buy">Estilos de párrafo avanzados</li>
+                    <li class="buy" data-text-id="servicio.li_2_3"></li>
 
-                    <li class="buy">PDF + ePub reflowable</li>
+                    <li class="buy" data-text-id="servicio.li_2_4"></li>
 
-                    <li class="buy">$4 USD / página</li>
+                    <li class="buy" data-text-id="servicio.li_2_5"></li>
 
                 </ul>
             </article>
@@ -713,24 +651,24 @@
             <!--- exp 3 ----------------------------->
 
             <article class="totalbox__1_buy">
-                <h4 class="dg">Diseño de Portada</h4>
+                <h4 class="dg" data-text-id="servicio.h4_3"></h4>
 
                 <center><img class="img_svg3" src="img/asesoria3_2.svg">
 
-                    <h5 class="dgreen">Arte Digital / IA</h5>
+                    <h5 class="dgreen" data-text-id="servicio.h5_3"></h5>
                 </center>
 
                 <ul>
 
-                    <li class="buy">Concepto creativo</li>
+                    <li class="buy" data-text-id="servicio.li_3_1"></li>
 
-                    <li class="buy">Ilustración / Composición</li>
+                    <li class="buy" data-text-id="servicio.li_3_2"></li>
 
-                    <li class="buy2">Tapa, contratapa, lomo</li>
+                    <li class="buy2" data-text-id="servicio.li_3_3"></li>
 
-                    <li class="buy">Mockup 3D promocional</li>
+                    <li class="buy" data-text-id="servicio.li_3_4"></li>
 
-                    <li class="buy">Desde $150 USD</li>
+                    <li class="buy" data-text-id="servicio.li_3_5"></li>
 
                 </ul>
             </article>
@@ -738,24 +676,24 @@
             <!--- exp 4 ----------------------------->
 
             <article class="totalbox__1_buy">
-                <h4 class="dg">Pack Completo</h4>
+                <h4 class="dg" data-text-id="servicio.h4_4"></h4>
 
                 <center><img class="img_svg3" src="img/asesoria4_2.svg">
 
-                    <h5 class="dgreen">Edición total</h5>
+                    <h5 class="dgreen" data-text-id="servicio.h5_4"></h5>
                 </center>
 
                 <ul>
 
-                    <li class="buy">Maquetación interior completa</li>
+                    <li class="buy" data-text-id="servicio.li_4_1"></li>
 
-                    <li class="buy">Diseño de portada premium</li>
+                    <li class="buy" data-text-id="servicio.li_4_2"></li>
 
-                    <li class="buy2">Gestión de ISBN / KDP</li>
+                    <li class="buy2" data-text-id="servicio.li_4_3"></li>
 
-                    <li class="buy">Asesoría de lanzamiento</li>
+                    <li class="buy" data-text-id="servicio.li_4_4"></li>
 
-                    <li class="buy">Precio a cotizar</li>
+                    <li class="buy" data-text-id="servicio.li_4_5"></li>
 
                 </ul>
             </article>
@@ -767,34 +705,30 @@
             <div class="totalbox-svg">
 
                 <article class="totalbox__1">
-                    <h2 class="y">Marco Legal</h2>
+                    <h2 class="y" data-text-id="servicio.h2_8"></h2>
 
-                    <p>Un libro existe oficialmente cuando tiene ISBN. Asesoramos en todos los trámites para proteger la
-                        obra y sus derechos.</p>
+                    <p data-text-id="servicio.p_8"></p>
                 </article>
 
                 <article class="totalbox__1">
 
-                    <h2 class="y">Especificaciones</h2>
+                    <h2 class="y" data-text-id="servicio.h2_9"></h2>
 
-                    <p>Entregamos archivos técnicamente perfectos. Sangrados, marcas de corte, perfiles de color y
-                        resolución de imágenes (300 DPI).</p>
+                    <p data-text-id="servicio.p_9"></p>
                 </article>
 
                 <article class="totalbox__1">
 
-                    <h2 class="y">Ergonomía Visual</h2>
+                    <h2 class="y" data-text-id="servicio.h2_10"></h2>
 
-                    <p>El diseño no es decoración, es ingeniería visual. Cuidamos el tamaño de la letra, el interlineado
-                        y los blancos para que la lectura sea un placer, no un esfuerzo.</p>
+                    <p data-text-id="servicio.p_10"></p>
                 </article>
 
                 <article class="totalbox__1">
 
-                    <h2 class="y">Diálogo</h2>
+                    <h2 class="y" data-text-id="servicio.h2_11"></h2>
 
-                    <p>El autor conoce su obra mejor que nadie. Trabajamos en comunicación constante para interpretar su
-                        visión y potenciarla con nuestros conocimientos técnicos.</p>
+                    <p data-text-id="servicio.p_11"></p>
                 </article>
             </div>
 
@@ -822,8 +756,8 @@
         <div class="sliderbajo1">
             <div class="sliderbox_bajo">
                 <article class="sliderbox__into--violet">
-                    <h1>Manifiesto</h1>
-                    <h3>El arte invisible de la edición</h3>
+                    <h1 data-text-id="estilo.h1"></h1>
+                    <h3 data-text-id="estilo.h3_1"></h3>
                 </article>
             </div>
         </div>
@@ -832,13 +766,9 @@
 
         <div class="totalbox">
             <article class="totalbox__0">
-                <h2>El Oficio</h2>
-
-                <h3>La página bien hecha</h3>
-
-                <p>Videodrome Estudio es un taller de diseño dedicado al libro. No somos una agencia de marketing ni una
-                    fábrica de contenido. Nos dedicamos a componer páginas que se dejen leer. Creemos en la tipografía
-                    clásica y en el respeto por el texto del autor.
+                <h2 data-text-id="estilo.h2_1"></h2>
+                <h3 data-text-id="estilo.h3_2"></h3>
+                <p data-text-id="estilo.p_1"></p>
 
 
 
@@ -850,16 +780,11 @@
         <div class="totalbox-white">
 
             <article class="totalbox__2">
-                <h2 class="dg">Estilo</h2>
+                <h2 class="dg" data-text-id="estilo.h2_2"></h2>
 
-                <h3 class="g">Claridad y Estructura</h3>
+                <h3 class="g" data-text-id="estilo.h3_3"></h3>
 
-                <p class="bl">
-                    No imponemos una estética sobre el libro. Cada manuscrito tiene su propio tono. Nuestro trabajo es
-                    encontrar la forma que mejor sirve al contenido.<br><br>
-                    Preferimos las retículas limpias, los márgenes generosos y las tipografías con historia. Evitamos
-                    los adornos innecesarios. Un libro bien diseñado es aquel donde el diseño no interrumpe la lectura.
-                </p>
+                <p class="bl" data-text-id="estilo.p_2"></p>
             </article>
 
             <div class="totalbox__1">
@@ -886,16 +811,11 @@
             </div>
 
             <article class="totalbox__2">
-                <h2>Filosofía</h2>
+                <h2 data-text-id="estilo.h2_3"></h2>
 
-                <h3>El libro como objeto duradero</h3>
+                <h3 data-text-id="estilo.h3_4"></h3>
 
-                <p>
-                    En un medio digital efímero, el libro (físico o digital) permanece. Trabajamos para que esa
-                    permanencia sea digna. Cuidamos los detalles ortotipográficos que las máquinas suelen ignorar: el
-                    kerning, las ligaduras, la partición de palabras. Hacemos libros para ser leídos, no solo para ser
-                    vendidos.
-                </p>
+                <p data-text-id="estilo.p_3"></p>
             </article>
         </div>
 
@@ -905,10 +825,9 @@
         <div class="sliderbajo5">
             <div class="sliderbox_bajo">
                 <article class="sliderbox__into--violet">
-                    <h2>Nuestra Firma</h2>
-                    <h3>Explora los libros que hemos diseñado</h3>
-                    <a href="#" onclick="showSection('proyectos')" class="button_w">Ver Portafolio
-                    </a>
+                    <h2 data-text-id="index.h2_6"></h2>
+                    <h3 data-text-id="index.h3_7"></h3>
+                    <a href="#" onclick="showSection('proyectos')" class="button_w" data-text-id="index.a_6"></a>
                 </article>
             </div>
         </div>
@@ -922,8 +841,8 @@
             <div class="sliderbox_bajo">
 
                 <article class="sliderbox__into--green">
-                    <h1>Aliados y Tecnología</h1>
-                    <h3>Herramientas de precisión para el editor</h3>
+                    <h1 data-text-id="tecnologia.h1"></h1>
+                    <h3 data-text-id="tecnologia.h3_1"></h3>
                 </article>
             </div>
         </div>
@@ -932,13 +851,9 @@
 
         <div class="totalbox">
             <article class="totalbox__0">
-                <h2>Herramientas</h2>
-
-                <h3>Técnica al servicio del editor</h3>
-
-                <p>Usamos el software estándar de la industria editorial. Sin secretos. Archivos abiertos, bien
-                    construidos y listos para imprenta o distribución digital.
-                </p>
+                <h2 data-text-id="tecnologia.h2_1"></h2>
+                <h3 data-text-id="tecnologia.h3_2"></h3>
+                <p data-text-id="tecnologia.p_1"></p>
 
             </article>
         </div>
@@ -948,16 +863,9 @@
         <div class="totalbox-white">
 
             <article class="totalbox__1">
-                <h2 class="dg">Software</h2>
-
-                <h3 class="g">Control digital total</h3>
-
-                <p class="bl">Trabajamos con Adobe InDesign para la maquetación profesional. Utilizamos scripts de
-                    automatización para asegurar la consistencia en documentos largos (estilos GREP, variables de
-                    texto).<br><br>
-                    Para los libros electrónicos (ePub), editamos el código HTML y CSS directamente para asegurar que el
-                    libro se vea bien en cualquier dispositivo, kindle o tablet.
-                </p>
+                <h2 class="dg" data-text-id="tecnologia.h2_2"></h2>
+                <h3 class="g" data-text-id="tecnologia.h3_3"></h3>
+                <p class="bl" data-text-id="tecnologia.p_2"></p>
             </article>
 
 
@@ -987,15 +895,9 @@
 
 
             <article class="totalbox__1">
-                <h2>Producción Impresa</h2>
-
-                <h3>Materialidad y Acabados</h3>
-
-                <p>Conocemos el proceso de impresión. Preparamos los archivos cuidando las sangres, los perfiles de
-                    color (CMYK) y la sobreimpresión de tintas.<br><br>
-                    Asesoramos en la elección del papel (ahuesado, bond, estucado) según el género del libro.
-                    Supervisamos que el objeto físico cumpla con los estándares de calidad antes de salir a la venta.
-                </p>
+                <h2 data-text-id="tecnologia.h2_3"></h2>
+                <h3 data-text-id="tecnologia.h3_4"></h3>
+                <p data-text-id="tecnologia.p_3"></p>
             </article>
         </div>
 
@@ -1004,10 +906,9 @@
         <div class="sliderbajo5">
             <div class="sliderbox_bajo">
                 <article class="sliderbox__into--purple">
-                    <h2>Resultados Tangibles</h2>
-                    <h3>La calidad que tu libro merece</h3>
-                    <a href="#" onclick="showSection('proyectos')" class="button_w">Portafolio
-                    </a>
+                    <h2 data-text-id="index.h2_6"></h2>
+                    <h3 data-text-id="index.h3_7"></h3>
+                    <a href="#" onclick="showSection('proyectos')" class="button_w" data-text-id="index.a_6"></a>
                 </article>
             </div>
         </div>
@@ -1032,7 +933,7 @@
                 <ul><a id="whatsapp" class="button_redes" href="https://wa.link/irxg7t" target="_blank"
                         rel="noopener noreferrer">
                         <img class="img_redes" src="img/redes/wapp.svg">
-                        Contacto Editorial
+                        <span data-text-id="footer.a_1"></span>
                     </a></ul>
 
                 <ul><a id="correo" class="button_redes" href="mailto:servicio@videodrome.com" target="_blank"
@@ -1045,9 +946,9 @@
 
 
         <article class="footer-col">
-            <h5>Videodrome Estudio.<br><br>Diseño y maquetación para autores independientes y editoriales.</h5>
+            <h5 data-text-id="footer.h5_1"></h5>
             <center>
-                <p>&copy; Videodrome Estudio</p>
+                <p data-text-id="footer.p_1"></p>
             </center>
         </article>
     </footer>
@@ -1088,28 +989,9 @@
         };
 
 
-        // Script para hacer el header sticky al hacer scroll
-        window.addEventListener("DOMContentLoaded", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 600); // Verifica el estado inicial
+        // El sticky header ahora se maneja en script.js
 
-            window.addEventListener("scroll", function () {
-                header.classList.toggle("sticky", window.scrollY > 600);
-            });
-        });
-
-        // Script para inicializar Slick Slider
-        $(document).ready(function () {
-            $('.galeria').slick({
-                centerMode: true,
-                centerPadding: '0',
-                slidesToShow: 1,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                arrows: true,
-                dots: true
-            });
-        });
+        // Script para inicializar Slick Slider (ahora se inicializa en script.js)
     </script>
 </body>
 

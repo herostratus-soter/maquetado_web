@@ -322,7 +322,7 @@ header {
 	font-family: 'Cinzel', serif;
 	font-weight: 400;
 	/* Removed bold */
-	font-size: 2.15vh;
+	font-size: clamp(14px, 2.15vh, 22px);
 	transition: 0.6s;
 	text-transform: uppercase;
 	/* Removed subtle divider line if desired "cleaner" look, but user said "keep borders that were there".
@@ -498,7 +498,7 @@ h1 {
 	letter-spacing: 0.1vw;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	font-size: 5vmin;
+	font-size: clamp(32px, 5vmin, 60px);
 	text-transform: uppercase;
 	/* Removed underline to reduce clutter */
 	border-bottom: none;
@@ -514,7 +514,7 @@ h2 {
 	/*letter-spacing: 0.2vw;*/
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	font-size: 4vmin;
+	font-size: clamp(26px, 4vmin, 48px);
 	/* Slightly smaller for better fit */
 	text-transform: uppercase;
 	overflow-wrap: break-word;
@@ -540,7 +540,7 @@ h3 {
 	letter-spacing: 0.1vw;
 	font-family: 'Old Standard TT', serif;
 	font-weight: 700;
-	font-size: 3vmin;
+	font-size: clamp(20px, 3vmin, 32px);
 	font-style: italic;
 	border-left: 3px solid var(--wine-color);
 	/* Line remains purple-ish */
@@ -555,7 +555,7 @@ h4 {
 	font-family: 'Cinzel', serif;
 	font-weight: 700;
 	/* Bold */
-	font-size: 3vmin;
+	font-size: clamp(18px, 3vmin, 30px);
 	/* Removed border */
 	border-bottom: none;
 	text-transform: uppercase;
@@ -569,7 +569,7 @@ h5 {
 	letter-spacing: 0.2vw;
 	font-family: 'Old Standard TT', serif;
 	font-weight: auto;
-	font-size: 2.4vmin;
+	font-size: clamp(16px, 2.4vmin, 26px);
 }
 
 p {
@@ -580,9 +580,9 @@ p {
 	letter-spacing: 0.02vw;
 	font-family: 'Old Standard TT', serif;
 	font-weight: 400;
-	font-size: 2.8vmin;
+	font-size: clamp(16px, 2.8vmin, 24px);
 	line-height: 1.6;
-	text-align: justify;
+	text-align: left;
 }
 
 ul {
@@ -756,7 +756,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 
-	padding: 8vmin 5vw;
+	padding: clamp(40px, 8vmin, 120px) 10vw;
 	border-radius: 0;
 	background-color: transparent;
 }
@@ -780,7 +780,7 @@ ul {
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	padding: 8vmin 5vw;
+	padding: clamp(40px, 8vmin, 120px) 10vw;
 	border-radius: 0;
 
 	/* Removed double borders as requested */
@@ -828,7 +828,7 @@ ul {
 	align-items: flex-start;
 	/* Corrected: Align items to top to prevent vertical jumping */
 
-	padding: 2vmin 7vw 2vmin 7vw;
+	padding: 2vmin 12vw 2vmin 12vw;
 }
 
 
@@ -848,13 +848,13 @@ ul {
 
 	position: relative;
 
-	width: 80%;
+	width: 70%;
 
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	padding: 8vmin 3vw 8vmin 3vw;
-	margin: 0 10vw 0 10vw;
+	padding: clamp(40px, 8vmin, 120px) 2vw;
+	margin: 0 15vw 0 15vw;
 
 	border-radius: 0;
 }
@@ -894,13 +894,13 @@ ul {
 
 	position: relative;
 
-	width: 80%;
+	width: 70%;
 
 	height: auto;
 	justify-content: center;
 	align-items: stretch;
-	padding: 8vmin 0 8vmin 0;
-	margin: 0 10vw 0 10vw;
+	padding: clamp(40px, 8vmin, 120px) 2vw;
+	margin: 0 15vw 0 15vw;
 
 	border-radius: 0;
 
@@ -972,7 +972,9 @@ ul {
 @media (max-width: 1024px) {
 
 	.totalbox,
-	.totalbox-white {
+	.totalbox-white,
+	.totalbox-anchoreducido,
+	.totalbox-anchoreducido2 {
 		flex-direction: column !important;
 		padding: 5vh 5vw;
 	}
@@ -999,6 +1001,10 @@ ul {
 
 	margin: 3vh 3%;
 	min-width: 250px;
+}
+
+.totalbox__0 p {
+	text-align: center;
 }
 
 
