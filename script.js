@@ -233,7 +233,8 @@ var TEXTOS_WEB = {
     },
     "footer": {
         // # SECCIÓN 1: Pie de página
-        "a_1": "Contacto Editorial",
+        "a_1": "WhatsApp",
+        "a_2": "servicio@videodrome.com",
         "h5_1": "Videodrome Estudio.<br><br>Diseño y maquetación para autores independientes y editoriales.",
         "p_1": "&copy; Videodrome Estudio"
     }

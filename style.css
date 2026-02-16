@@ -741,6 +741,10 @@ ul {
 	/* Force icon to pure white on button hover */
 }
 
+.button_redes span {
+	color: inherit;
+}
+
 
 /* boxes design ...................................................*/
 
