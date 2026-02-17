@@ -574,7 +574,7 @@ h5 {
 
 p {
 	position: relative;
-	margin: 3vw 0 0 0;
+	margin: 2vh 0;
 	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.02vw;
@@ -760,7 +760,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 
-	padding: clamp(40px, 8vmin, 120px) 10vw;
+	padding: clamp(78px, 15.6vmin, 234px) 10vw;
 	border-radius: 0;
 	background-color: transparent;
 }
@@ -784,7 +784,7 @@ ul {
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	padding: clamp(40px, 8vmin, 120px) 10vw;
+	padding: clamp(78px, 15.6vmin, 234px) 10vw;
 	border-radius: 0;
 
 	/* Removed double borders as requested */
@@ -829,10 +829,9 @@ ul {
 
 	height: auto;
 	justify-content: center;
-	align-items: flex-start;
-	/* Corrected: Align items to top to prevent vertical jumping */
+	align-items: center;
 
-	padding: 2vmin 5vw 2vmin 5vw;
+	padding: 3.9vmin 5vw 3.9vmin 5vw;
 }
 
 
@@ -857,7 +856,7 @@ ul {
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	padding: clamp(40px, 8vmin, 120px) 2vw;
+	padding: clamp(78px, 15.6vmin, 234px) 2vw;
 	margin: 0 15vw 0 15vw;
 
 	border-radius: 0;
@@ -903,7 +902,7 @@ ul {
 	height: auto;
 	justify-content: center;
 	align-items: stretch;
-	padding: clamp(40px, 8vmin, 120px) 0;
+	padding: clamp(78px, 15.6vmin, 234px) 0;
 	margin: 0 15vw 0 15vw;
 
 	border-radius: 0;
@@ -980,7 +979,7 @@ ul {
 	.totalbox-anchoreducido,
 	.totalbox-anchoreducido2 {
 		flex-direction: column !important;
-		padding: 5vh 5vw;
+		padding: 9.75vh 5vw;
 	}
 
 	.totalbox__1,
@@ -995,7 +994,8 @@ ul {
 
 .totalbox__0 {
 	position: relative;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: auto;
@@ -1194,7 +1194,7 @@ footer {
 	height: auto;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15vh 9vw;
+	padding: 29.25vh 9vw;
 	background-color: transparent;
 }
 
@@ -1710,12 +1710,38 @@ img {
 	box-shadow: none;
 
 	margin: 0;
-	padding: 1.5vmax 10vmax 1.5vmax 4vmax;
+	padding: 2.925vmax 10vmax 2.925vmax 4vmax;
 
 	min-width: 250px;
 	border-radius: 0;
 	backdrop-filter: blur(3px);
 	/* Glass effect */
+}
+
+.totalbox__1>*:first-child,
+.totalbox__2>*:first-child,
+.totalbox__0>*:first-child,
+.totalbox__1_buy>*:first-child,
+.sliderbox__into--green>*:first-child,
+.sliderbox__into--purple>*:first-child,
+.sliderbox__into--cyan>*:first-child,
+.sliderbox__into--violet>*:first-child,
+.sliderbox__into--orange>*:first-child,
+.sliderbox__into--blue>*:first-child {
+	margin-top: 0 !important;
+}
+
+.totalbox__1>*:last-child,
+.totalbox__2>*:last-child,
+.totalbox__0>*:last-child,
+.totalbox__1_buy>*:last-child,
+.sliderbox__into--green>*:last-child,
+.sliderbox__into--purple>*:last-child,
+.sliderbox__into--cyan>*:last-child,
+.sliderbox__into--violet>*:last-child,
+.sliderbox__into--orange>*:last-child,
+.sliderbox__into--blue>*:last-child {
+	margin-bottom: 0 !important;
 }
 
 .sliderbox__into--green *:not(.button_w):not(.button_br),
