@@ -21,7 +21,7 @@ font-family: 'Playfair Display', serif;
 	--champagne-gold: #ffc84a;
 	/* More saturated/vibrant gold/beige for contrast */
 	/* Reverted to original simple style: solid border */
-	--border-style: 1px solid var(--ink-black);
+	--border-style: 2px solid var(--ink-black);
 }
 
 * {
@@ -44,7 +44,7 @@ header {
 
 	/* White header background */
 	background-color: #fff;
-	border-bottom: 1px solid var(--ink-black);
+	border-bottom: 2px solid var(--ink-black);
 
 	justify-content: center;
 	align-items: center;
@@ -64,7 +64,7 @@ header {
 
 
 .separador {
-	height: 1px;
+	height: 2px;
 	width: 100vw;
 	background: var(--ink-black);
 	display: none;
@@ -223,7 +223,7 @@ header {
 		width: 55px;
 		height: 55px;
 		background: #fff;
-		border: 1px solid var(--ink-black);
+		border: 2px solid var(--ink-black);
 		border-radius: 50%;
 		/* CIRCLE */
 		justify-content: center;
@@ -249,7 +249,7 @@ header {
 		display: block;
 		position: absolute;
 		width: 100%;
-		height: 1px;
+		height: 2px;
 		background: var(--ink-black);
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}
@@ -343,7 +343,7 @@ header {
 
 .header__nav--div2 {
 	/* Keep border for the "button-like" nav item as original had it */
-	border: 1px solid #000;
+	border: 2px solid #000;
 
 	border-radius: 0;
 	position: relative;
@@ -372,7 +372,7 @@ header {
 header.sticky {
 	padding: 0vh;
 	background: #fff;
-	border-bottom: 1px solid var(--ink-black);
+	border-bottom: 2px solid var(--ink-black);
 
 }
 
@@ -394,12 +394,12 @@ header.sticky .header__nav--divlogo:hover {
 
 header.sticky .header__nav--div2 {
 	color: var(--ink-black);
-	border: 1px solid var(--ink-black);
+	border: 2px solid var(--ink-black);
 }
 
 header.sticky .header__nav--div2:hover {
 	color: var(--paper-bg);
-	border: 1px solid var(--ink-black);
+	border: 2px solid var(--ink-black);
 	background-color: var(--ink-black);
 }
 
@@ -426,7 +426,7 @@ header.sticky .separador {
 	padding: 0.7vmax;
 
 	background-color: #fff;
-	border: 1px solid #000;
+	border: 2px solid #000;
 	border-radius: 0;
 	backdrop-filter: blur(3px);
 
@@ -437,7 +437,7 @@ header.sticky .separador {
 
 .whatsapp-button:hover {
 	background-color: #000;
-	border: 1px solid #000;
+	border: 2px solid #000;
 }
 
 .whatsapp-button:hover img {
@@ -485,14 +485,20 @@ body {
 
 .body-line__line {
 	height: 100vh;
-	width: 1px;
+	width: 2px;
 	background: var(--ink-black);
 	/* Reverted dashed to solid if "original thickness" implied original style, but original was solid. Solid is cleaner. */
 }
 
+@media (max-width: 768px) {
+	.body-line {
+		display: none;
+	}
+}
+
 h1 {
 	position: relative;
-	margin: 0;
+	margin: 0 0 1.5vh 0 !important;
 	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.1vw;
@@ -508,7 +514,7 @@ h1 {
 
 h2 {
 	position: relative;
-	margin: 0;
+	margin: 0 0 1.5vh 0 !important;
 	text-decoration: none;
 	color: var(--ink-black);
 	/*letter-spacing: 0.2vw;*/
@@ -532,8 +538,8 @@ h2 {
 
 h3 {
 	position: relative;
-	margin: 1vh 0 1vh 0;
-	padding: 0 0 0 2vw;
+	margin: 0 0 5vh 0 !important;
+	padding: 0 0 0 2.5vw;
 	text-decoration: none;
 	color: var(--ink-black);
 	/* Text in black as requested */
@@ -548,7 +554,7 @@ h3 {
 
 h4 {
 	position: relative;
-	margin: 1vh 0 1vh 0;
+	margin: 0 0 1.5vh 0 !important;
 	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.2vw;
@@ -563,7 +569,7 @@ h4 {
 
 h5 {
 	position: relative;
-	margin: 1vh 0 1vh 0;
+	margin: 0 0 3vh 0 !important;
 	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.2vw;
@@ -574,7 +580,7 @@ h5 {
 
 p {
 	position: relative;
-	margin: 2vh 0;
+	margin: 0 0 3vh 0 !important;
 	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.02vw;
@@ -665,7 +671,7 @@ ul {
 	font-size: 3.3vmin;
 
 	/* Simple solid border */
-	border: 1px solid #000;
+	border: 2px solid #000;
 	border-radius: 0;
 	transition-duration: 0.4s;
 }
@@ -674,13 +680,13 @@ ul {
 .button_w:hover {
 	background-color: #000;
 	color: #fff;
-	border: 1px solid #000;
+	border: 2px solid #000;
 }
 
 .button_br {
 	display: inline-table;
 	background-color: transparent;
-	border: 1px solid #000;
+	border: 2px solid #000;
 
 	margin: 3vmin 0vmin 0vmin 3vmin;
 	padding: 0.7vmax;
@@ -710,7 +716,7 @@ ul {
 	align-items: center;
 
 	background-color: transparent;
-	border: 1px solid var(--ink-black);
+	border: 2px solid var(--ink-black);
 	/* Thin ink border */
 
 	margin: 1vmax 0 1vmax 0;
@@ -732,7 +738,7 @@ ul {
 .button_redes:hover {
 	background-color: var(--ink-black);
 	color: var(--paper-bg);
-	border: 1px solid var(--ink-black);
+	border: 2px solid var(--ink-black);
 	backdrop-filter: none;
 }
 
@@ -819,7 +825,7 @@ ul {
 }
 
 
-.totalbox-svg {
+.totalbox-step {
 	display: flex;
 	flex-wrap: wrap;
 
@@ -830,6 +836,36 @@ ul {
 	height: auto;
 	justify-content: center;
 	align-items: center;
+
+	padding: 3.9vmin 5vw 3.9vmin 5vw;
+}
+
+.totalbox-grid {
+	display: flex;
+	flex-wrap: wrap;
+
+	position: relative;
+
+	width: 100%;
+
+	height: auto;
+	justify-content: center;
+	align-items: flex-start;
+
+	padding: 3.9vmin 5vw 3.9vmin 5vw;
+}
+
+.totalbox-svg-grid {
+	display: flex;
+	flex-wrap: wrap;
+
+	position: relative;
+
+	width: 100%;
+
+	height: auto;
+	justify-content: center;
+	align-items: flex-start;
 
 	padding: 3.9vmin 5vw 3.9vmin 5vw;
 }
@@ -951,22 +987,21 @@ ul {
 }
 
 /* Isolated 2x2 grid ONLY for the Service Info SVG section */
-.totalbox-svg .totalbox__1 {
+.totalbox-step .totalbox__1,
+.totalbox-grid .totalbox__1,
+.totalbox-svg-grid .totalbox__1 {
 	flex: 0 0 45%;
 	margin: 2vh 2%;
 	justify-content: flex-start;
 	align-items: flex-start;
 }
 
-/* Specific adjustment for blocks that only have text (totalbox__0) */
-.totalbox__0 {
-	flex: 1 1 100%;
-	width: 100%;
-}
-
 /* Responsive adjustments for generic blocks (Home) */
 @media (max-width: 900px) {
-	.totalbox-svg .totalbox__1 {
+
+	.totalbox-step .totalbox__1,
+	.totalbox-grid .totalbox__1,
+	.totalbox-svg-grid .totalbox__1 {
 		flex: 0 0 100%;
 	}
 }
@@ -991,7 +1026,7 @@ ul {
 	}
 }
 
-
+/* Specific adjustment for blocks that only have text (totalbox__0) */
 .totalbox__0 {
 	position: relative;
 	display: flex;
@@ -1001,11 +1036,45 @@ ul {
 	height: auto;
 	width: auto;
 	flex: 1 1 100%;
+	/* Removed text-align center to allow inherited alignment or specific element alignment */
 	text-align: center;
 
 	margin: 3vh 3%;
 	min-width: 250px;
 }
+
+.totalbox__0 h2,
+.totalbox__0 h3,
+.totalbox__0 p {
+	text-align: inherit;
+	/* Allow them to behave like standard boxes if needed, or force left/center */
+	width: 100%;
+	/* Ensure they take full width for proper spacing */
+}
+
+/* Ensure totalbox__0 uses same margins as standard elements */
+.totalbox__0 h2 {
+	margin-bottom: 1.5vh !important;
+}
+
+.totalbox__0 h3 {
+	margin-top: 0 !important;
+	margin-bottom: 5vh !important;
+	padding-left: 0 !important;
+	border-left: none !important;
+	border-bottom: 3px solid var(--wine-color);
+	display: inline-block;
+	/* Make border span only text width */
+	width: auto !important;
+	/* Override width: 100% */
+	padding-bottom: 1vh;
+}
+
+.totalbox__0 p {
+	margin-top: 0 !important;
+	margin-bottom: 3vh !important;
+}
+
 
 .totalbox__0 p {
 	text-align: center;
@@ -1026,7 +1095,7 @@ ul {
 	min-width: 240px;
 
 	margin: 2vh 1%;
-	padding: 2vh 1.5vw;
+	padding: 5vh 1.5vw;
 
 	border-radius: 0;
 	/* Texture but no border */
@@ -1066,6 +1135,18 @@ ul {
 	padding: 0 10px;
 	word-wrap: break-word;
 	margin-bottom: 2vh;
+	font-size: clamp(16px, 2.5vmin, 24px);
+	/* Reduced size */
+}
+
+.totalbox__1_buy h5 {
+	font-size: clamp(14px, 2vmin, 20px);
+	/* Reduced size */
+}
+
+.totalbox__1_buy ul li {
+	font-size: clamp(14px, 1.8vmin, 18px);
+	/* Reduced size for list items */
 }
 
 .totalbox__1_buy h4,
@@ -1238,7 +1319,7 @@ footer {
 }
 
 .line {
-	height: 1px;
+	height: 2px;
 	width: 100%;
 	background: var(--ink-black);
 	border-bottom: none;
@@ -1343,7 +1424,7 @@ img {
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
 	border-radius: 0;
-	border: 1px solid var(--ink-black);
+	border: 2px solid var(--ink-black);
 }
 
 .slider2 img {
@@ -1375,7 +1456,7 @@ img {
 	height: 1vmax;
 	border-radius: 0;
 	background-color: transparent;
-	border: 1px solid var(--ink-black);
+	border: 2px solid var(--ink-black);
 	transform: rotate(45deg);
 	opacity: 0.5;
 	transition: opacity ease 250ms;
