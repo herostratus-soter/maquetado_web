@@ -1,114 +1,52 @@
 var TEXTOS_WEB = {
+    "header": {
+        // # SECCIÓN 1: Menú superior
+        "a_2": "Servicios Editoriales",
+        "a_3": "Página web de Autor",
+        "a_4": "Corrección de Estilo",
+        "a_1": "Portafolio de Proyectos"
+    },
     "index": {
         // # SECCIÓN 1: Hero / Portada
-        "h1": "Videodrome Estudio",
-        "h3_1": "Servicios de Maquetación y Diseño",
+        "h1": "Sergio Cruz | Diseño Editorial",
+        "h3_1": "Servicios de Maquetación, Arte y Diseño.",
+        "p_0": "Cuando un autor desea publicar su obra en formato de libro, es necesario diagramar los textos y demás elementos para que sus formalidades sean las adecuadas para impresión o difusión digital.",
+        "a_0": "Portafolio de Proyectos",
 
-        // # SECCIÓN 2: Composición
-        "h2_1": "Composición y Diagramación",
-        "h3_2": "La arquitectura de la página.",
-        "p_1": "La maquetación organiza el contenido en el soporte. Se atienden variables como la mancha tipográfica, el ritmo de lectura y la jerarquía visual. El tratamiento de líneas viudas y huérfanas, así como el tracking y kerning, responde a criterios de legibilidad y estética clásica.<br><br>Se busca una estructura clara que facilite la experiencia de lectura.",
-        "a_1": "Ver Servicios",
+        // # SECCIÓN 2: Totalbox 1
+        "h2_1": "Maquetación",
+        "h3_2": "Diagramación de texto y contenido para libros.",
+        "p_1": "Cuando un autor desea publicar su obra en formato de libro, es necesario diagramar los textos y demás elementos para que sus formalidades sean las adecuadas para impresión o difusión digital.<br>A continuación puedes consultar en que consiste la maquetación en detalle y que otros servicios tenemos para contribuir con el éxito de tu publicación.",
 
-        // # SECCIÓN 3: Identidad
-        "h2_2": "Identidad Visual y Cubiertas",
-        "h3_3": "Semiótica de la imagen.",
+        // # SECCIÓN 3: Totalbox white 1
+        "h2_2": "Arte y portada",
+        "h3_3": "La carta de presentación de tu obra.",
         "p_2": "Desarrollo conceptual para la identidad del libro. La cubierta funciona como síntesis del contenido. <br><br>Exploración técnica mediante ilustración, fotografía, modelado 3D o herramientas generativas, bajo la dirección de arte adecuada para cada proyecto. Adaptación para formatos impresos y digitales.",
-        "a_2": "Ver Portafolio",
 
-        // # SECCIÓN 4: Legal
-        "h2_3": "Gestión Legal y Administrativa",
-        "h3_4": "Formalización de la obra.",
-        "p_3": "Acompañamiento en el registro de ISBN y Derechos de Autor. <br><br>Configuración técnica de metadatos para distribución en plataformas como Amazon KDP y sincronización de regalías (Payoneer). Gestión administrativa del activo intelectual.",
-        "a_3": "Información Legal",
+        // # SECCIÓN 4: Totalbox SVG multiple
+        "h2_5": "Asesoramiento y diligencias",
+        "h3_6": "Diligenciamiento o asesoramiento para múltiples trámites.",
+        "p_5": "La corrección ortotipográfica y de estilo es una disciplina independiente al diseño. Referimos el trabajo de Amparo Rozo, especialista en la materia, para asegurar la integridad gramatical y estilística del manuscrito. <br><br>Servicio externo sugerido.",
+        "h4_1": "Diligenciamiento de ISBN",
+        "h4_2": "Asesoramiento y diligeniamiento de Amazon KDP",
+        "h4_3": "Diligenciamiento de derechos de autor",
+        "a_5": "Ver todos los servicios editoriales",
 
-        // # SECCIÓN 5: Impresión
-        "h2_4": "Impresión Profesional",
+        // # SECCIÓN 5: Totalbox white 2
+        "h2_4": "Página web para Autor",
         "h3_5": "Producción física bajo demanda.",
         "p_4": "Gestión de impresión bajo demanda. Selección de sustratos, encuadernación (rústica, cosida) y acabados especiales.<br><br>Control de calidad en la producción del libro como objeto físico. Supervisión de tintas y fidelidad de color.",
-        "a_4": "Detalles técnicos",
+        "a_4": "Página web de autor",
 
-        // # SECCIÓN 6: Corrección
-        "h2_5": "Corrección de Estilo",
-        "h3_6": "Referencia Profesional: Amparo Rozo",
-        "p_5": "La corrección ortotipográfica y de estilo es una disciplina independiente al diseño. Referimos el trabajo de Amparo Rozo, especialista en la materia, para asegurar la integridad gramatical y estilística del manuscrito. <br><br>Servicio externo sugerido.",
-        "a_5": "Contacto Directo",
-        "h4_1": "Revisión Ortotipográfica",
-        "h4_2": "Corrección de Estilo",
-        "h4_3": "Tutoría de Escritura",
-
-        // # SECCIÓN 7: Historias Visuales
-        "h2_6": "Historias Visuales",
-        "h3_7": "Mira cómo transformamos textos en libros",
-        "a_6": "Ver Ejemplos"
+        // # SECCIÓN 6: Totalbox 2
+        "h2_3": "Corrección de estilo",
+        "h3_4": "Referencia Profesional: Amparo Rozo.",
+        "p_3": "Acompañamiento en el registro de ISBN y Derechos de Autor. <br><br>Configuración técnica de metadatos para distribución en plataformas como Amazon KDP y sincronización de regalías (Payoneer). Gestión administrativa del activo intelectual.",
+        "a_3": "Ver Corrección de Estilo",
     },
-    "proyectos": {
-        // # SECCIÓN 1: Cabecera Proyectos
-        "h1": "Archivo de Proyectos",
-        "h3_1": "Muestra de trabajos realizados",
-
-        // # SECCIÓN 2: Novela El Secreto
-        "h2_1": "Novela: El Secreto de la Montaña",
-        "h3_2": "Maquetación compleja y diseño de cubierta",
-        "p_1": "Un proyecto desafiante con notas al pie, imágenes capitulares y una cubierta ilustrada digitalmente evocando el misterio de la trama.",
-
-        // # SECCIÓN 3: Poesía Susurros
-        "h2_2": "Colección Poética \"Susurros\"",
-        "h3_3": "Maquetación minimalista",
-        "p_2": "Para esta antología, optamos por una maquetación limpia, con abundante aire blanco y una tipografía serif clásica que respeta el ritmo de cada verso.",
-
-        // # SECCIÓN 4: Ensayo Académico
-        "h2_3": "Ensayo Académico",
-        "h3_4": "Gestión de citas y bibliografía",
-        "p_3": "Un trabajo riguroso de jerarquización de contenidos, índices complejos y tablas de datos, optimizado para impresión académica.",
-
-        // # SECCIÓN 5: Novela El Escriba
-        "h2_4": "Novela Histórica \"El Escriba\"",
-        "h3_5": "Diseño de colección literaria",
-        "p_4": "Propuesta gráfica para serie de novelas históricas. Uso de tipografía clásica, capitulares ornamentadas y papel ahuesado para evocar la época de la narración sin perder legibilidad moderna.",
-
-        // # SECCIÓN 6: Saga Reinos de Luz
-        "h2_5": "Saga Fantasía \"Reinos de Luz\"",
-        "h3_6": "Dirección de arte para trilogía",
-        "p_5": "Desarrollo de identidad visual completa para saga juvenil. Ilustración de portadas, mapas interiores detallados y maquetación con elementos gráficos en los encabezados.",
-
-        // # SECCIÓN 7: Libro Urbanscapes
-        "h2_6": "Libro de Arte \"Urbanscapes\"",
-        "h3_7": "Gran formato y fotografía",
-        "p_6": "Edición de lujo (Coffee Table Book) enfocada en fotografía urbana. Maquetación minimalista con rejilla de 12 columnas para flexibilidad en la disposición de imágenes y textos bilingües.",
-
-        // # SECCIÓN 8: Manual Medicina
-        "h2_7": "Manual de Medicina Interna",
-        "h3_8": "Diseño editorial técnico y científico",
-        "p_7": "Maquetación compleja de 800 páginas con jerarquías estrictas. Gestión de tablas, gráficos vectoriales, índice analítico y referencias cruzadas. Prioridad absoluta en la claridad de la información.",
-
-        // # SECCIÓN 9: Memorias Biografía
-        "h2_8": "Memorias \"Voces del Pasado\"",
-        "h3_9": "Biografía y Archivo",
-        "p_8": "Restauración digital de fotografías antiguas y composición de texto corrido para libro de memorias familiares. Encuadernación en tapa dura con acabado en tela.",
-
-        // # SECCIÓN 10: Cómic Cyberpunk
-        "h2_9": "Cómic \"Cyberpunk City\"",
-        "h3_10": "Rotulación y maquetación de novela gráfica",
-        "p_9": "Ajuste de globos de texto, selección de fuentes para diálogos y onomatopeyas. Preparación de archivos para impresión en cuatricromía sobre papel estucado.",
-
-        // # SECCIÓN 11: Fanzine Underground
-        "h2_10": "Fanzine \"Underground\"",
-        "h3_11": "Diseño experimental independiente",
-        "p_10": "Proyecto autogestionado con estética Risograph. Uso de tipografías display, collage digital y retículas asimétricas para una publicación de cultura urbana.",
-
-        // # SECCIÓN 12: Tesis Arquitectura
-        "h2_11": "Tesis Doctoral \"Arquitectura Viva\"",
-        "h3_12": "Formato académico institucional",
-        "p_11": "Adaptación a normas APA/IEEE. Maquetación sobria y estructurada para impresión de tesis. Generación de PDF interactivo con navegación por marcadores.",
-
-        // # SECCIÓN 13: Pie Portafolio
-        "h2_12": "Arte conceptual e IA",
-        "h3_13": "Innovación y experimentación de nuestro equipo de diseño"
-    },
-    "servicio": {
+    "servicios_editoriales": {
         // # SECCIÓN 1: Cabecera Servicios
-        "h1": "tmp",
+        "h1": "Servicios Editoriales",
         "h3_1": "De la palabra al libro",
 
         // # SECCIÓN 2: Intro Proceso
@@ -184,9 +122,9 @@ var TEXTOS_WEB = {
         "h2_11": "Diálogo",
         "p_11": "El autor conoce su obra mejor que nadie. Trabajamos en comunicación constante para interpretar su visión y potenciarla con nuestros conocimientos técnicos."
     },
-    "estilo": {
+    "paginas_web_de_autores": {
         // # SECCIÓN 1: Cabecera Estilo
-        "h1": "Manifiesto",
+        "h1": "Páginas Web de Autores",
         "h3_1": "El arte invisible de la edición",
 
         // # SECCIÓN 2: El Oficio
@@ -204,9 +142,9 @@ var TEXTOS_WEB = {
         "h3_4": "El libro como objeto duradero",
         "p_3": "En un medio digital efímero, el libro (físico o digital) permanece. Trabajamos para que esa permanencia sea digna. Cuidamos los detalles ortotipográficos que las máquinas suelen ignorar: el kerning, las ligaduras, la partición de palabras. Hacemos libros para ser leídos, no solo para ser vendidos."
     },
-    "tecnologia": {
+    "correccion_de_estilo": {
         // # SECCIÓN 1: Cabecera Tecnología
-        "h1": "Aliados y Tecnología",
+        "h1": "Corrección de Estilo",
         "h3_1": "Herramientas de precisión para el editor",
 
         // # SECCIÓN 2: Herramientas
@@ -224,14 +162,75 @@ var TEXTOS_WEB = {
         "h3_4": "Materialidad y Acabados",
         "p_3": "Conocemos el proceso de impresión. Preparamos los archivos cuidando las sangres, los perfiles de color (CMYK) y la sobreimpresión de tintas.<br><br>Asesoramos en la elección del papel (ahuesado, bond, estucado) según el género del libro. Supervisamos que el objeto físico cumpla con los estándares de calidad antes de salir a la venta."
     },
-    "header": {
-        // # SECCIÓN 1: Menú superior
-        "a_1": "Portafolio",
-        "a_2": "Servicios",
-        "a_3": "Nosotros",
-        "a_4": "Aliados"
+    "portafolio": {
+        // # SECCIÓN 1: Cabecera Proyectos
+        "h1": "Portafolio de Proyectos",
+        "h3_1": "Muestra de algunos trabajos realizados.",
+
+        // # SECCIÓN 2: Novela El Secreto
+        "h2_1": "Novela: El Secreto de la Montaña",
+        "h3_2": "Maquetación compleja y diseño de cubierta",
+        "p_1": "Un proyecto desafiante con notas al pie, imágenes capitulares y una cubierta ilustrada digitalmente evocando el misterio de la trama.",
+
+        // # SECCIÓN 3: Poesía Susurros
+        "h2_2": "Colección Poética \"Susurros\"",
+        "h3_3": "Maquetación minimalista",
+        "p_2": "Para esta antología, optamos por una maquetación limpia, con abundante aire blanco y una tipografía serif clásica que respeta el ritmo de cada verso.",
+
+        // # SECCIÓN 4: Ensayo Académico
+        "h2_3": "Ensayo Académico",
+        "h3_4": "Gestión de citas y bibliografía",
+        "p_3": "Un trabajo riguroso de jerarquización de contenidos, índices complejos y tablas de datos, optimizado para impresión académica.",
+
+        // # SECCIÓN 5: Novela El Escriba
+        "h2_4": "Novela Histórica \"El Escriba\"",
+        "h3_5": "Diseño de colección literaria",
+        "p_4": "Propuesta gráfica para serie de novelas históricas. Uso de tipografía clásica, capitulares ornamentadas y papel ahuesado para evocar la época de la narración sin perder legibilidad moderna.",
+
+        // # SECCIÓN 6: Saga Reinos de Luz
+        "h2_5": "Saga Fantasía \"Reinos de Luz\"",
+        "h3_6": "Dirección de arte para trilogía",
+        "p_5": "Desarrollo de identidad visual completa para saga juvenil. Ilustración de portadas, mapas interiores detallados y maquetación con elementos gráficos en los encabezados.",
+
+        // # SECCIÓN 7: Libro Urbanscapes
+        "h2_6": "Libro de Arte \"Urbanscapes\"",
+        "h3_7": "Gran formato y fotografía",
+        "p_6": "Edición de lujo (Coffee Table Book) enfocada en fotografía urbana. Maquetación minimalista con rejilla de 12 columnas para flexibilidad en la disposición de imágenes y textos bilingües.",
+
+        // # SECCIÓN 8: Manual Medicina
+        "h2_7": "Manual de Medicina Interna",
+        "h3_8": "Diseño editorial técnico y científico",
+        "p_7": "Maquetación compleja de 800 páginas con jerarquías estrictas. Gestión de tablas, gráficos vectoriales, índice analítico y referencias cruzadas. Prioridad absoluta en la claridad de la información.",
+
+        // # SECCIÓN 9: Memorias Biografía
+        "h2_8": "Memorias \"Voces del Pasado\"",
+        "h3_9": "Biografía y Archivo",
+        "p_8": "Restauración digital de fotografías antiguas y composición de texto corrido para libro de memorias familiares. Encuadernación en tapa dura con acabado en tela.",
+
+        // # SECCIÓN 10: Cómic Cyberpunk
+        "h2_9": "Cómic \"Cyberpunk City\"",
+        "h3_10": "Rotulación y maquetación de novela gráfica",
+        "p_9": "Ajuste de globos de texto, selección de fuentes para diálogos y onomatopeyas. Preparación de archivos para impresión en cuatricromía sobre papel estucado.",
+
+        // # SECCIÓN 11: Fanzine Underground
+        "h2_10": "Fanzine \"Underground\"",
+        "h3_11": "Diseño experimental independiente",
+        "p_10": "Proyecto autogestionado con estética Risograph. Uso de tipografías display, collage digital y retículas asimétricas para una publicación de cultura urbana.",
+
+        // # SECCIÓN 12: Tesis Arquitectura
+        "h2_11": "Tesis Doctoral \"Arquitectura Viva\"",
+        "h3_12": "Formato académico institucional",
+        "p_11": "Adaptación a normas APA/IEEE. Maquetación sobria y estructurada para impresión de tesis. Generación de PDF interactivo con navegación por marcadores.",
+
+        // # SECCIÓN 13: Pie Portafolio
+        "h2_12": "Arte conceptual e IA",
+        "h3_13": "Innovación y experimentación de nuestro equipo de diseño"
     },
     "footer": {
+        // # SECCIÓN Slider Bajo
+        "h2_6": "Historias Visuales",
+        "h3_7": "Mira cómo transformamos textos en libros",
+
         // # SECCIÓN 1: Pie de página
         "a_1": "WhatsApp",
         "a_2": "servicio@videodrome.com",

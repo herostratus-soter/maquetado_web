@@ -1752,8 +1752,8 @@ img {
 	height: auto;
 
 	margin: 0;
-	padding: 0 0 0 30vmin;
-	top: 70%;
+	padding: 0 0 0 40vmin;
+	top: 40%;
 }
 
 /* Mobile fix for sliders */
@@ -1761,10 +1761,10 @@ img {
 
 	.sliderbox_alto,
 	.sliderbox_bajo {
-		padding: 0 5vw;
-		/* Remove huge side padding */
-		top: 50%;
-		/* Center vertically more safely */
+		padding: 5vh 5vw 0 5vw;
+		/* Remove huge side padding, add top breathing room */
+		top: 20%;
+		/* Sit near the top of the slider */
 		text-align: center;
 	}
 }
