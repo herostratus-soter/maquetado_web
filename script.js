@@ -10,7 +10,7 @@ var TEXTOS_WEB = {
         // # SECCIÓN 1: Hero / Portada
         "h1": "Sergio Cruz | Diseño Editorial",
         "h3_1": "Servicios de Maquetación, Arte y Diseño.",
-        "p_0": "Cuando un autor desea publicar su obra en formato de libro, es necesario diagramar los textos y demás elementos para que sus formalidades sean las adecuadas para impresión o difusión digital.",
+        "p_0": "decuadas para impresión o difusión digital.",
         "a_0": "Portafolio de Proyectos",
 
         // # SECCIÓN 2: Totalbox 1
@@ -21,27 +21,27 @@ var TEXTOS_WEB = {
         // # SECCIÓN 3: Totalbox white 1
         "h2_2": "Arte y portada",
         "h3_3": "La carta de presentación de tu obra.",
-        "p_2": "Desarrollo conceptual para la identidad del libro. La cubierta funciona como síntesis del contenido. <br><br>Exploración técnica mediante ilustración, fotografía, modelado 3D o herramientas generativas, bajo la dirección de arte adecuada para cada proyecto. Adaptación para formatos impresos y digitales.",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 4: Totalbox SVG multiple
         "h2_5": "Asesoramiento y diligencias",
         "h3_6": "Diligenciamiento o asesoramiento para múltiples trámites.",
-        "p_5": "La corrección ortotipográfica y de estilo es una disciplina independiente al diseño. Referimos el trabajo de Amparo Rozo, especialista en la materia, para asegurar la integridad gramatical y estilística del manuscrito. <br><br>Servicio externo sugerido.",
-        "h4_1": "Diligenciamiento de ISBN",
-        "h4_2": "Asesoramiento y diligeniamiento de Amazon KDP",
+        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "h4_1": "Asesoramiento de Amazon KDP",
+        "h4_2": "Diligenciamiento de ISBN",
         "h4_3": "Diligenciamiento de derechos de autor",
         "a_5": "Ver todos los servicios editoriales",
 
         // # SECCIÓN 5: Totalbox white 2
         "h2_4": "Página web para Autor",
-        "h3_5": "Producción física bajo demanda.",
-        "p_4": "Gestión de impresión bajo demanda. Selección de sustratos, encuadernación (rústica, cosida) y acabados especiales.<br><br>Control de calidad en la producción del libro como objeto físico. Supervisión de tintas y fidelidad de color.",
+        "h3_5": "subtitulo subtirulo subtitulo",
+        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
         "a_4": "Página web de autor",
 
         // # SECCIÓN 6: Totalbox 2
         "h2_3": "Corrección de estilo",
         "h3_4": "Referencia Profesional: Amparo Rozo.",
-        "p_3": "Acompañamiento en el registro de ISBN y Derechos de Autor. <br><br>Configuración técnica de metadatos para distribución en plataformas como Amazon KDP y sincronización de regalías (Payoneer). Gestión administrativa del activo intelectual.",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto .",
         "a_3": "Ver Corrección de Estilo",
     },
     "servicios_editoriales": {
@@ -50,77 +50,81 @@ var TEXTOS_WEB = {
         "h3_1": "De la palabra al libro",
 
         // # SECCIÓN 2: Intro Proceso
-        "h2_1": "El Camino del Manuscrito",
+        "h2_1": "Pasos para el diseño editorial",
         "h3_2": "Un flujo de trabajo ordenado y transparente",
-        "p_1": "Convertir un texto en un libro requiere pasos precisos. No nos saltamos etapas. Cada fase asegura que el resultado final sea profesional y perdurable.",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 3: Paso 1
-        "h2_2": "1. Valoración",
-        "h3_3": "Lectura del Material",
-        "p_2": "Recibimos el manuscrito original. Evaluamos su extensión, estructura y necesidades específicas (imágenes, tablas, notas). Definimos el formato ideal y el presupuesto.",
+        "h2_2": "0. Corrección de Estilo",
+        "h3_3": "Antes del diseño editorial",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
         "a_1": "Enviar archivo",
 
         // # SECCIÓN 4: Paso 2
-        "h2_3": "2. Preparación",
+        "h2_3": "1. Trámites y registros",
         "h3_4": "Cuidado del Texto",
-        "p_3": "Antes de diseñar, el texto debe estar limpio. Recomendamos una revisión ortotipográfica (alianza con Amparo Rozo) para asegurar la calidad literaria.",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 5: Paso 3
-        "h2_4": "3. Maquetación",
+        "h2_4": "2. Maquetación",
         "h3_5": "Puesta en Página",
-        "p_4": "Definición de la retícula y la tipografía. Composición del bloque de texto línea a línea. Ajuste de viudas, huérfanas y ríos.",
+        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 6: Paso 4
-        "h2_5": "4. Legal",
+        "h2_5": "3. Arte y portada",
         "h3_6": "Trámites y Registros",
-        "p_5": "Gestión del ISBN, Códigos de Barras y Depósito Legal. Preparación de metadatos para la distribución comercial.",
+        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 7: Paso 5
-        "h2_6": "5. Entrega",
+        "h2_6": "4. impresión o amazon KDP",
         "h3_7": "Artes Finales",
-        "p_6": "Exportación de PDFs de alta resolución (X-1a) para imprenta o ePub validados para tiendas digitales. Entrega de archivos maestros.",
+        "p_6": " texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 8: Tarifas
-        "h2_7": "Servicios",
-        "p_7": "Esquemas modulares de trabajo según los requerimientos del proyecto.",
-        "h4_1": "Diagramación Básica",
-        "h5_1": "Texto corrido",
-        "li_1_1": "Diseño de caja de texto",
-        "li_1_2": "Control de viudas/huérfanas",
-        "li_1_3": "Entrega PDF imprenta",
-        "li_1_4": "Entrega ePub básico",
-        "li_1_5": "$2 USD / página",
-        "h4_2": "Diagramación Compleja",
-        "h5_2": "Diseño complejo",
-        "li_2_1": "Notas al pie / Tablas",
-        "li_2_2": "Imágenes / Gráficos",
-        "li_2_3": "Estilos de párrafo avanzados",
-        "li_2_4": "PDF + ePub reflowable",
-        "li_2_5": "$4 USD / página",
-        "h4_3": "Diseño de Portada",
-        "h5_3": "Arte Digital / IA",
-        "li_3_1": "Concepto creativo",
-        "li_3_2": "Ilustración / Composición",
-        "li_3_3": "Tapa, contratapa, lomo",
-        "li_3_4": "Mockup 3D promocional",
-        "li_3_5": "Desde $150 USD",
-        "h4_4": "Pack Completo",
-        "h5_4": "Edición total",
-        "li_4_1": "Maquetación interior completa",
-        "li_4_2": "Diseño de portada premium",
-        "li_4_3": "Gestión de ISBN / KDP",
-        "li_4_4": "Asesoría de lanzamiento",
-        "li_4_5": "Precio a cotizar",
+        "h2_7": "Servicios Diseño Editorial",
+        "p_7": "Conoce todos los servicios de diseño disponibles para la publicación de tu libro.",
+
+        "h4_1": "Maquetación",
+        "h5_1": "Diagramación de texto e imágenes.",
+        "li_1_1": "Maquetación para impresión.",
+        "li_1_2": "Maquetación digital para e-book.",
+        "li_1_3": "Maquetación para Amazon KDP.",
+        "li_1_4": "Costos por número de palabras e imagenes.",
+        "li_1_5": "Cotiza <br> maquetación",
+
+        "h4_2": "Arte",
+        "h5_2": "Arte para interior y portada de libros.",
+        "li_2_1": "Ilustración digital y dibujo tradicional.",
+        "li_2_2": "Modelado, arte y renderización 3d.",
+        "li_2_3": "Edición de imagen y fotografía.",
+        "li_2_4": "Arte de inteligencia artificial.",
+        "li_2_5": "Cotiza <br> arte para libros",
+
+        "h4_3": "Portada",
+        "h5_3": "Diseño de carátula, lomo y contracarátula.",
+        "li_3_1": "Portada en formato de impresión.",
+        "li_3_2": "Portada en formato digital.",
+        "li_3_3": "Portada en formatos para Amazon KDP.",
+        "li_3_4": "Diseño de solapas y separadores.",
+        "li_3_5": "Cotiza <br> diseño portada",
+
+        "h4_4": "Diligencias",
+        "h5_4": "Diligencias, Trámites y asesoramiento.",
+        "li_4_1": "Registro de derechos de autor.",
+        "li_4_2": "Registro de ISBN en camlibro",
+        "li_4_3": "Asesoramiento para Amazon KDP.",
+        "li_4_4": "Diligenciamiento de impresion.",
+        "li_4_5": "Cotiza <br> asesoramiento",
 
         // # SECCIÓN 9: Detalles Técnicos
-        "h2_8": "Marco Legal",
-        "p_8": "Un libro existe oficialmente cuando tiene ISBN. Asesoramos en todos los trámites para proteger la obra y sus derechos.",
-        "h2_9": "Especificaciones",
-        "p_9": "Entregamos archivos técnicamente perfectos. Sangrados, marcas de corte, perfiles de color y resolución de imágenes (300 DPI).",
-        "h2_10": "Ergonomía Visual",
-        "p_10": "El diseño no es decoración, es ingeniería visual. Cuidamos el tamaño de la letra, el interlineado y los blancos para que la lectura sea un placer, no un esfuerzo.",
-        "h2_11": "Diálogo",
-        "p_11": "El autor conoce su obra mejor que nadie. Trabajamos en comunicación constante para interpretar su visión y potenciarla con nuestros conocimientos técnicos."
+        "h2_8": "Amazon KDP",
+        "p_8": "Amazon KDP es muy exigente con los formatos de su plataforma, por lo que se elaboran los manuscritos y portadas en los formatos adecuados: tapa blanda, tapa dura y e-book.",
+        "h2_9": "Marco Legal",
+        "p_9": "Un libro existe oficialmente cuando tiene ISBN y está registrado ante la Dirección Nacional de Derechos de Autor. Se asesora en todos los trámites para proteger la obra y sus derechos.",
+        "h2_10": "Rigor Técnico",
+        "p_10": "El rigor técnico es de prioridad máxima. <br>Para los manuscritos se revisan viudas, huérfanas, legibilidad, tipografía, entre otros aspectos y para las portadas se revisan sangrados, marcas de corte, perfiles de color y resolución de imágenes etc.",
+        "h2_11": "Acompañamiento",
+        "p_11": "Se acompaña al autor en todos los procesos teniendo en cuenta sus necesidades y expectativas. Para ello se establecen un número de correiones y entregas según el servicio contratado."
     },
     "paginas_web_de_autores": {
         // # SECCIÓN 1: Cabecera Estilo

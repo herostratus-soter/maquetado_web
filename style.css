@@ -5,6 +5,16 @@ font-family: 'Old Standard TT', serif;
 font-family: 'Playfair Display', serif;
 */
 
+* {
+	word-break: normal !important;
+	word-wrap: normal !important;
+	overflow-wrap: normal !important;
+	-webkit-hyphens: none !important;
+	-moz-hyphens: none !important;
+	-ms-hyphens: none !important;
+	hyphens: none !important;
+}
+
 :root {
 	--paper-bg: #ece5d5;
 	/* Old paper color */
@@ -523,9 +533,9 @@ h2 {
 	font-size: clamp(26px, 4vmin, 48px);
 	/* Slightly smaller for better fit */
 	text-transform: uppercase;
-	overflow-wrap: break-word;
+	overflow-wrap: normal;
 	word-break: normal;
-	hyphens: auto;
+	hyphens: none;
 	/* More editorial look for long words */
 }
 
@@ -559,7 +569,7 @@ h4 {
 	color: var(--ink-black);
 	letter-spacing: 0.2vw;
 	font-family: 'Cinzel', serif;
-	font-weight: 700;
+	font-weight: 400;
 	/* Bold */
 	font-size: clamp(18px, 3vmin, 30px);
 	/* Removed border */
@@ -586,7 +596,7 @@ p {
 	letter-spacing: 0.02vw;
 	font-family: 'Old Standard TT', serif;
 	font-weight: 400;
-	font-size: clamp(16px, 2.8vmin, 24px);
+	font-size: clamp(18px, 3.2vmin, 28px);
 	line-height: 1.6;
 	text-align: left;
 }
@@ -720,16 +730,15 @@ ul {
 	/* Thin ink border */
 
 	margin: 1vmax 0 1vmax 0;
-	padding: 0.6vmax;
+	padding: 0.7vmax;
 
 	text-decoration: none;
 	text-align: center;
 	letter-spacing: 0.2vw;
 	font-family: 'Cinzel', serif;
-	font-weight: auto;
-	font-size: 1.5vmax;
+	font-weight: 400;
+	font-size: 2.5vmin;
 	color: var(--ink-black);
-	/* Dark text */
 
 	border-radius: 0;
 	transition-duration: 0.4s;
@@ -749,6 +758,11 @@ ul {
 
 .button_redes span {
 	color: inherit;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
+	font-size: inherit;
+	letter-spacing: 0.2vw;
+	text-transform: uppercase;
 }
 
 
@@ -933,13 +947,13 @@ ul {
 
 	position: relative;
 
-	width: 70%;
+	width: 85%;
 
 	height: auto;
 	justify-content: center;
 	align-items: stretch;
 	padding: clamp(78px, 15.6vmin, 234px) 0;
-	margin: 0 15vw 0 15vw;
+	margin: 0 7.5vw 0 7.5vw;
 
 	border-radius: 0;
 
@@ -1092,10 +1106,10 @@ ul {
 	align-items: center;
 	text-align: center;
 	width: auto;
-	min-width: 240px;
+	min-width: 260px;
 
 	margin: 2vh 1%;
-	padding: 5vh 1.5vw;
+	padding: 6vh 2vw;
 
 	border-radius: 0;
 	/* Texture but no border */
@@ -1133,20 +1147,53 @@ ul {
 .totalbox__1_buy h4 {
 	width: 100%;
 	padding: 0 10px;
-	word-wrap: break-word;
+	word-wrap: normal;
 	margin-bottom: 2vh;
-	font-size: clamp(16px, 2.5vmin, 24px);
-	/* Reduced size */
+	font-size: clamp(18px, 3vmin, 28px);
 }
 
 .totalbox__1_buy h5 {
-	font-size: clamp(14px, 2vmin, 20px);
-	/* Reduced size */
+	font-family: 'Old Standard TT', serif;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 0.1vw;
+	font-size: clamp(16px, 2.4vmin, 24px);
+}
+
+.totalbox__1_buy ul {
+	width: 100%;
+	padding-left: 20px;
+	margin-top: 2vh;
+	list-style-type: disc;
 }
 
 .totalbox__1_buy ul li {
-	font-size: clamp(14px, 1.8vmin, 18px);
-	/* Reduced size for list items */
+	font-family: 'Old Standard TT', serif;
+	font-size: clamp(16px, 2.2vmin, 22px);
+	text-align: left;
+}
+
+.buy-btn {
+	display: inline-block;
+	width: auto;
+	padding: 0.7vmax 1.5vmax;
+	margin-top: 3vh;
+	text-align: center;
+	color: var(--text-white) !important;
+	background-color: transparent;
+	border: 2px solid var(--text-white) !important;
+	font-family: 'Cinzel', serif;
+	font-size: clamp(13px, 2vmin, 18px);
+	letter-spacing: 0.1vw;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.buy-btn:hover {
+	background-color: var(--text-white) !important;
+	color: var(--dark-bg) !important;
 }
 
 .totalbox__1_buy h4,
@@ -1175,7 +1222,7 @@ ul {
 
 /*fuente*/
 	{
-	font-family: 'Old Standard TT', sans-serif;
+	font-family: 'Old Standard TT', serif;
 
 	text-decoration: none;
 	position: relative;
@@ -1183,9 +1230,9 @@ ul {
 	color: var(--ink-black);
 	/*color: #ecb67aff;*/
 	letter-spacing: 0.1vw;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 2.20vmin;
-	text-align: center;
+	text-align: left;
 	margin: 10px 0;
 	min-height: auto;
 	border-bottom: none;
@@ -1195,7 +1242,7 @@ ul {
 
 /*fuente 2*/
 	{
-	font-family: 'Old Standard TT', sans-serif;
+	font-family: 'Old Standard TT', serif;
 
 	text-decoration: none;
 	position: relative;
@@ -1203,9 +1250,9 @@ ul {
 	color: var(--sepia-accent);
 	/*color: #ecb67aff;*/
 	letter-spacing: 0.1vw;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 2.30vmin;
-	text-align: center;
+	text-align: left;
 	margin: 10px 0;
 	min-height: auto;
 	border-bottom: none;
@@ -1291,7 +1338,22 @@ footer {
 .footer-col h5 {
 	text-align: center;
 	margin: 0;
-	font-size: 2.2vmin;
+	font-family: 'Old Standard TT', serif;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 0.1vw;
+	font-size: clamp(14px, 2.2vmin, 22px);
+}
+
+.footer-col p {
+	text-align: center;
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.02vw;
+	font-size: clamp(12px, 1.8vmin, 18px);
+	line-height: 1.6;
+	margin: 0 !important;
 }
 
 @media (max-width: 900px) {
@@ -1541,7 +1603,7 @@ img {
 	content: '‹';
 	color: var(--ink-black);
 	font-size: 40px;
-	font-family: Arial, sans-serif;
+	font-family: 'Cinzel', serif;
 	opacity: 1;
 	line-height: 1;
 }
@@ -1564,7 +1626,7 @@ img {
 	content: '›';
 	color: var(--ink-black);
 	font-size: 40px;
-	font-family: Arial, sans-serif;
+	font-family: 'Cinzel', serif;
 	opacity: 1;
 	line-height: 1;
 }
