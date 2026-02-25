@@ -673,6 +673,7 @@ ul {
 	background-color: transparent;
 
 	text-decoration: none;
+	text-align: center;
 	color: #000;
 	letter-spacing: 0.2vw;
 	font-family: 'Cinzel', serif;
@@ -1126,6 +1127,7 @@ ul {
 		/* 2x2 grid */
 	}
 
+	.totalbox-anchoreducido,
 	.totalbox-anchoreducido2 {
 		width: 95%;
 		margin: 0 2.5vw;
@@ -1138,6 +1140,7 @@ ul {
 		/* Stacked */
 	}
 
+	.totalbox-anchoreducido,
 	.totalbox-anchoreducido2 {
 		width: 100%;
 		margin: 0;

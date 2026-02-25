@@ -10,7 +10,7 @@ var TEXTOS_WEB = {
         // # SECCIÓN 1: Hero / Portada
         "h1": "Sergio Cruz | Diseño Editorial",
         "h3_1": "Servicios de Maquetación, Arte y Diseño.",
-        "p_0": "decuadas para impresión o difusión digital.",
+        "p_0": "Diseñador gráfico e ingeniero de sistemas de la Universidad Nacional de Colombia. Con experiencia en diseño editorial, diseño de páginas web y una trayectoria profesional de 12 años.",
         "a_0": "Portafolio de Proyectos",
 
         // # SECCIÓN 2: Totalbox 1
@@ -129,22 +129,23 @@ var TEXTOS_WEB = {
     "paginas_web_de_autores": {
         // # SECCIÓN 1: Cabecera Estilo
         "h1": "Páginas Web de Autores",
-        "h3_1": "El arte invisible de la edición",
+        "h3_1": "subtitulo subtitulo subtitulo",
 
         // # SECCIÓN 2: El Oficio
-        "h2_1": "El Oficio",
-        "h3_2": "La página bien hecha",
-        "p_1": "Videodrome Estudio es un taller de diseño dedicado al libro. No somos una agencia de marketing ni una fábrica de contenido. Nos dedicamos a componer páginas que se dejen leer. Creemos en la tipografía clásica y en el respeto por el texto del autor.",
+        "h2_1": "titulo titulo",
+        "h3_2": "subtitulo subtitulo",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 3: Estilo
-        "h2_2": "Estilo",
-        "h3_3": "Claridad y Estructura",
-        "p_2": "No imponemos una estética sobre el libro. Cada manuscrito tiene su propio tono. Nuestro trabajo es encontrar la forma que mejor sirve al contenido.<br><br>Preferimos las retículas limpias, los márgenes generosos y las tipografías con historia. Evitamos los adornos innecesarios. Un libro bien diseñado es aquel donde el diseño no interrumpe la lectura.",
+        "h2_2": "titulo titulo",
+        "h3_3": "subtitulo subtitulo",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 4: Filosofía
-        "h2_3": "Filosofía",
-        "h3_4": "El libro como objeto duradero",
-        "p_3": "En un medio digital efímero, el libro (físico o digital) permanece. Trabajamos para que esa permanencia sea digna. Cuidamos los detalles ortotipográficos que las máquinas suelen ignorar: el kerning, las ligaduras, la partición de palabras. Hacemos libros para ser leídos, no solo para ser vendidos."
+        "h2_3": "titulo titulo",
+        "h3_4": "subtitulo subtitulo",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "a_1": "Cotizar <br> páginas web para autores"
     },
     "correccion_de_estilo": {
         // # SECCIÓN 1: Cabecera Tecnología
@@ -152,19 +153,20 @@ var TEXTOS_WEB = {
         "h3_1": "Herramientas de precisión para el editor",
 
         // # SECCIÓN 2: Herramientas
-        "h2_1": "Herramientas",
-        "h3_2": "Técnica al servicio del editor",
-        "p_1": "Usamos el software estándar de la industria editorial. Sin secretos. Archivos abiertos, bien construidos y listos para imprenta o distribución digital.",
+        "h2_1": "titulo titulo",
+        "h3_2": "subtitulo subtitulo",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 3: Software
-        "h2_2": "Software",
-        "h3_3": "Control digital total",
-        "p_2": "Trabajamos con Adobe InDesign para la maquetación profesional. Utilizamos scripts de automatización para asegurar la consistencia en documentos largos (estilos GREP, variables de texto).<br><br>Para los libros electrónicos (ePub), editamos el código HTML y CSS directamente para asegurar que el libro se vea bien en cualquier dispositivo, kindle o tablet.",
+        "h2_2": "titulo titulo",
+        "h3_3": "subtitulo subtitulo",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 4: Producción
-        "h2_3": "Producción Impresa",
-        "h3_4": "Materialidad y Acabados",
-        "p_3": "Conocemos el proceso de impresión. Preparamos los archivos cuidando las sangres, los perfiles de color (CMYK) y la sobreimpresión de tintas.<br><br>Asesoramos en la elección del papel (ahuesado, bond, estucado) según el género del libro. Supervisamos que el objeto físico cumpla con los estándares de calidad antes de salir a la venta."
+        "h2_3": "titulo titulo",
+        "h3_4": "subtitulo subtitulo",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "a_1": "Cotizar <br> corrección de estilo"
     },
     "portafolio": {
         // # SECCIÓN 1: Cabecera Proyectos
@@ -172,63 +174,59 @@ var TEXTOS_WEB = {
         "h3_1": "Muestra de algunos trabajos realizados.",
 
         // # SECCIÓN 2: Novela El Secreto
-        "h2_1": "Novela: El Secreto de la Montaña",
-        "h3_2": "Maquetación compleja y diseño de cubierta",
-        "p_1": "Un proyecto desafiante con notas al pie, imágenes capitulares y una cubierta ilustrada digitalmente evocando el misterio de la trama.",
+        "h2_1": "titulo titulo",
+        "h3_2": "subtitulo subtitulo",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 3: Poesía Susurros
-        "h2_2": "Colección Poética \"Susurros\"",
-        "h3_3": "Maquetación minimalista",
-        "p_2": "Para esta antología, optamos por una maquetación limpia, con abundante aire blanco y una tipografía serif clásica que respeta el ritmo de cada verso.",
+        "h2_2": "titulo titulo",
+        "h3_3": "subtitulo subtitulo",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 4: Ensayo Académico
-        "h2_3": "Ensayo Académico",
-        "h3_4": "Gestión de citas y bibliografía",
-        "p_3": "Un trabajo riguroso de jerarquización de contenidos, índices complejos y tablas de datos, optimizado para impresión académica.",
+        "h2_3": "titulo titulo",
+        "h3_4": "subtitulo subtitulo",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 5: Novela El Escriba
-        "h2_4": "Novela Histórica \"El Escriba\"",
-        "h3_5": "Diseño de colección literaria",
-        "p_4": "Propuesta gráfica para serie de novelas históricas. Uso de tipografía clásica, capitulares ornamentadas y papel ahuesado para evocar la época de la narración sin perder legibilidad moderna.",
+        "h2_4": "titulo titulo",
+        "h3_5": "subtitulo subtitulo",
+        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 6: Saga Reinos de Luz
-        "h2_5": "Saga Fantasía \"Reinos de Luz\"",
-        "h3_6": "Dirección de arte para trilogía",
-        "p_5": "Desarrollo de identidad visual completa para saga juvenil. Ilustración de portadas, mapas interiores detallados y maquetación con elementos gráficos en los encabezados.",
+        "h2_5": "titulo titulo",
+        "h3_6": "subtitulo subtitulo",
+        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 7: Libro Urbanscapes
-        "h2_6": "Libro de Arte \"Urbanscapes\"",
-        "h3_7": "Gran formato y fotografía",
-        "p_6": "Edición de lujo (Coffee Table Book) enfocada en fotografía urbana. Maquetación minimalista con rejilla de 12 columnas para flexibilidad en la disposición de imágenes y textos bilingües.",
+        "h2_6": "titulo titulo",
+        "h3_7": "subtitulo subtitulo",
+        "p_6": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 8: Manual Medicina
-        "h2_7": "Manual de Medicina Interna",
-        "h3_8": "Diseño editorial técnico y científico",
-        "p_7": "Maquetación compleja de 800 páginas con jerarquías estrictas. Gestión de tablas, gráficos vectoriales, índice analítico y referencias cruzadas. Prioridad absoluta en la claridad de la información.",
+        "h2_7": "titulo titulo",
+        "h3_8": "subtitulo subtitulo",
+        "p_7": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 9: Memorias Biografía
-        "h2_8": "Memorias \"Voces del Pasado\"",
-        "h3_9": "Biografía y Archivo",
-        "p_8": "Restauración digital de fotografías antiguas y composición de texto corrido para libro de memorias familiares. Encuadernación en tapa dura con acabado en tela.",
+        "h2_8": "titulo titulo",
+        "h3_9": "subtitulo subtitulo",
+        "p_8": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 10: Cómic Cyberpunk
-        "h2_9": "Cómic \"Cyberpunk City\"",
-        "h3_10": "Rotulación y maquetación de novela gráfica",
-        "p_9": "Ajuste de globos de texto, selección de fuentes para diálogos y onomatopeyas. Preparación de archivos para impresión en cuatricromía sobre papel estucado.",
+        "h2_9": "titulo titulo",
+        "h3_10": "subtitulo subtitulo",
+        "p_9": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 11: Fanzine Underground
-        "h2_10": "Fanzine \"Underground\"",
-        "h3_11": "Diseño experimental independiente",
-        "p_10": "Proyecto autogestionado con estética Risograph. Uso de tipografías display, collage digital y retículas asimétricas para una publicación de cultura urbana.",
+        "h2_10": "titulo titulo",
+        "h3_11": "subtitulo subtitulo",
+        "p_10": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
 
         // # SECCIÓN 12: Tesis Arquitectura
-        "h2_11": "Tesis Doctoral \"Arquitectura Viva\"",
-        "h3_12": "Formato académico institucional",
-        "p_11": "Adaptación a normas APA/IEEE. Maquetación sobria y estructurada para impresión de tesis. Generación de PDF interactivo con navegación por marcadores.",
-
-        // # SECCIÓN 13: Pie Portafolio
-        "h2_12": "Arte conceptual e IA",
-        "h3_13": "Innovación y experimentación de nuestro equipo de diseño"
+        "h2_11": "titulo titulo",
+        "h3_12": "subtitulo subtitulo",
+        "p_11": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
     },
     "footer": {
         // # SECCIÓN Slider Bajo
