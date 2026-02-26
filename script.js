@@ -21,12 +21,12 @@ var TEXTOS_WEB = {
         // # SECCIÓN 3: Totalbox white 1
         "h2_2": "Arte y portada",
         "h3_3": "La carta de presentación de tu obra.",
-        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 4: Totalbox SVG multiple
         "h2_5": "Asesoramiento y diligencias",
         "h3_6": "Diligenciamiento o asesoramiento para múltiples trámites.",
-        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
         "h4_1": "Asesoramiento de Amazon KDP",
         "h4_2": "Diligenciamiento de ISBN",
         "h4_3": "Diligenciamiento de derechos de autor",
@@ -35,13 +35,13 @@ var TEXTOS_WEB = {
         // # SECCIÓN 5: Totalbox white 2
         "h2_4": "Página web para Autor",
         "h3_5": "subtitulo subtirulo subtitulo",
-        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
         "a_4": "Página web de autor",
 
         // # SECCIÓN 6: Totalbox 2
         "h2_3": "Corrección de estilo",
         "h3_4": "Referencia Profesional: Amparo Rozo.",
-        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto .",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
         "a_3": "Ver Corrección de Estilo",
     },
     "servicios_editoriales": {
@@ -52,33 +52,33 @@ var TEXTOS_WEB = {
         // # SECCIÓN 2: Intro Proceso
         "h2_1": "Pasos para el diseño editorial",
         "h3_2": "Un flujo de trabajo ordenado y transparente",
-        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 3: Paso 1
         "h2_2": "0. Corrección de Estilo",
         "h3_3": "Antes del diseño editorial",
-        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
-        "a_1": "Enviar archivo",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "a_1": "Ver Corrección de Estilo",
 
         // # SECCIÓN 4: Paso 2
         "h2_3": "1. Trámites y registros",
         "h3_4": "Cuidado del Texto",
-        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 5: Paso 3
         "h2_4": "2. Maquetación",
         "h3_5": "Puesta en Página",
-        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 6: Paso 4
         "h2_5": "3. Arte y portada",
         "h3_6": "Trámites y Registros",
-        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 7: Paso 5
         "h2_6": "4. impresión o amazon KDP",
         "h3_7": "Artes Finales",
-        "p_6": " texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_6": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 8: Tarifas
         "h2_7": "Servicios Diseño Editorial",
@@ -134,17 +134,17 @@ var TEXTOS_WEB = {
         // # SECCIÓN 2: El Oficio
         "h2_1": "titulo titulo",
         "h3_2": "subtitulo subtitulo",
-        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 3: Estilo
         "h2_2": "titulo titulo",
         "h3_3": "subtitulo subtitulo",
-        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 4: Filosofía
         "h2_3": "titulo titulo",
         "h3_4": "subtitulo subtitulo",
-        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
         "a_1": "Cotizar <br> páginas web para autores"
     },
     "correccion_de_estilo": {
@@ -155,17 +155,17 @@ var TEXTOS_WEB = {
         // # SECCIÓN 2: Herramientas
         "h2_1": "titulo titulo",
         "h3_2": "subtitulo subtitulo",
-        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 3: Software
         "h2_2": "titulo titulo",
         "h3_3": "subtitulo subtitulo",
-        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 4: Producción
         "h2_3": "titulo titulo",
         "h3_4": "subtitulo subtitulo",
-        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
         "a_1": "Cotizar <br> corrección de estilo"
     },
     "portafolio": {
@@ -176,57 +176,37 @@ var TEXTOS_WEB = {
         // # SECCIÓN 2: Novela El Secreto
         "h2_1": "titulo titulo",
         "h3_2": "subtitulo subtitulo",
-        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 3: Poesía Susurros
         "h2_2": "titulo titulo",
         "h3_3": "subtitulo subtitulo",
-        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 4: Ensayo Académico
         "h2_3": "titulo titulo",
         "h3_4": "subtitulo subtitulo",
-        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 5: Novela El Escriba
         "h2_4": "titulo titulo",
         "h3_5": "subtitulo subtitulo",
-        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 6: Saga Reinos de Luz
         "h2_5": "titulo titulo",
         "h3_6": "subtitulo subtitulo",
-        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 7: Libro Urbanscapes
         "h2_6": "titulo titulo",
         "h3_7": "subtitulo subtitulo",
-        "p_6": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_6": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
 
         // # SECCIÓN 8: Manual Medicina
         "h2_7": "titulo titulo",
         "h3_8": "subtitulo subtitulo",
-        "p_7": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
-
-        // # SECCIÓN 9: Memorias Biografía
-        "h2_8": "titulo titulo",
-        "h3_9": "subtitulo subtitulo",
-        "p_8": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
-
-        // # SECCIÓN 10: Cómic Cyberpunk
-        "h2_9": "titulo titulo",
-        "h3_10": "subtitulo subtitulo",
-        "p_9": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
-
-        // # SECCIÓN 11: Fanzine Underground
-        "h2_10": "titulo titulo",
-        "h3_11": "subtitulo subtitulo",
-        "p_10": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
-
-        // # SECCIÓN 12: Tesis Arquitectura
-        "h2_11": "titulo titulo",
-        "h3_12": "subtitulo subtitulo",
-        "p_11": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ",
+        "p_7": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
     },
     "footer": {
         // # SECCIÓN Slider Bajo
