@@ -57,7 +57,7 @@ var TEXTOS_WEB = {
         // # SECCIÓN 3: Paso 1
         "h2_2": "0. Corrección de estilo",
         "h3_3": "El cuidado del manuscrito.",
-        "p_2": "Antes de iniciar la maquetación, es vital contar con una revisión exhaustiva. A través de la alianza con Amparo Rozo se enmiendan errores gramaticales o de puntuación, reescribiendo posibles oraciones confusas en un lenguaje claro y bien estructurado.",
+        "p_2": "Antes de iniciar la maquetación, es vital contar con una revisión exhaustiva. A través de la alianza con la escritora Amparo Rozo se enmiendan errores gramaticales o de puntuación, reescribiendo posibles oraciones confusas en un lenguaje claro y bien estructurado.",
         "a_1": "ver corrección de estilo",
 
         // # SECCIÓN 4: Paso 2
@@ -170,48 +170,38 @@ var TEXTOS_WEB = {
     },
     "portafolio": {
         // # SECCIÓN 1: Cabecera Proyectos
-        "h1": "Portafolio de Proyectos",
+        "h1": "Portafolio de proyectos",
         "h3_1": "Muestra de algunos trabajos realizados.",
 
         // # SECCIÓN 2: Novela El Secreto
-        "h2_1": "titulo titulo",
-        "h3_2": "subtitulo subtitulo",
-        "p_1": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "h2_1": "El deseo en que te habito",
+        "h3_2": "Novela de Diego Jaramillo.",
+        "p_1": "Se realizó la maquetación, la diagramación de la portada y la ilustración digital según los requerimientos del autor. Además, el libro se publicó exitosamente en Amazon KDP.",
 
         // # SECCIÓN 3: Poesía Susurros
-        "h2_2": "titulo titulo",
-        "h3_3": "subtitulo subtitulo",
-        "p_2": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "h2_2": "Contradicciones: Consumo Respeto",
+        "h3_3": "Trilogía de Eduardo Gómez Gutiérrez.",
+        "p_2": "Destaca en particular de esta entrega el arte de la portada que se realizó con técnicas de modelado y renderizado 3D. Trabajo completo para impresión.",
 
         // # SECCIÓN 4: Ensayo Académico
-        "h2_3": "titulo titulo",
-        "h3_4": "subtitulo subtitulo",
-        "p_3": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "h2_3": "Remembranzas de Mariquita",
+        "h3_4": "Relatos de Yolanda Henao Velásquez.",
+        "p_3": "El reto en esta entrega fue el escaneo y diagramación del delicado material fotográfico y documental para la edición impresa. El libro es un reflejo de la historia de Mariquita, Tolima, donde es un éxito en ventas.",
 
         // # SECCIÓN 5: Novela El Escriba
-        "h2_4": "titulo titulo",
-        "h3_5": "subtitulo subtitulo",
-        "p_4": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "h2_4": "El amor no es un merengue",
+        "h3_5": "Novela de Ángel Esguerra Naizir.",
+        "p_4": "Para la elaboración del diseño editorial se tuvo en cuenta la dicotomía en la metaficción que plantea el autor, viéndose reflejada en la dualidad de la portada y contraportada, y en el cuidado de las señales en el texto del manuscrito.",
 
         // # SECCIÓN 6: Saga Reinos de Luz
-        "h2_5": "titulo titulo",
-        "h3_6": "subtitulo subtitulo",
-        "p_5": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
-
-        // # SECCIÓN 7: Libro Urbanscapes
-        "h2_6": "titulo titulo",
-        "h3_7": "subtitulo subtitulo",
-        "p_6": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
-
-        // # SECCIÓN 8: Manual Medicina
-        "h2_7": "titulo titulo",
-        "h3_8": "subtitulo subtitulo",
-        "p_7": "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.",
+        "h2_5": "Donde nace el karma",
+        "h3_6": "Novela de ciencia ficción de Ennio Prada.",
+        "p_5": "Dada la gran carga simbólica de la obra, a petición del autor, se tuvo el cuidado de representar todos los elementos por medio de una ilustración digital para la portada. Se hizo maquetación y diagramación para publicación impresa.",
     },
     "footer": {
         // # SECCIÓN Slider Bajo
         "h2_6": "Ideas inmortales",
-        "h3_7": "Escribir es el acto definitivo de amar una historia lo suficiente como para obligarla a existir para siempre.",
+        "h3_7": "Escribir es el acto de amar una historia lo suficiente como para obligarla a existir para siempre.",
 
         // # SECCIÓN 1: Pie de página
         "a_1": "WhatsApp",
