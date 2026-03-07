@@ -766,6 +766,8 @@ ul {
 }
 
 
+
+
 /* boxes design ...................................................*/
 
 .totalbox {
@@ -2237,5 +2239,24 @@ img {
 		background-image: url(img/03_1soft_1.jpg);
 		background-size: cover;
 		background-position: center;
+	}
+}
+
+/* Responsividad general de botones en vistas móviles verticales */
+@media (max-width: 768px) {
+	.button_redes {
+		font-size: 3.75vmin !important;
+		padding: 1.05vmax !important;
+	}
+
+	.button_w,
+	.button_br {
+		font-size: 4.95vmin !important;
+		padding: 1.05vmax !important;
+	}
+
+	.buy-btn {
+		font-size: clamp(20px, 4vmin, 27px) !important;
+		padding: 1.05vmax 2.25vmax !important;
 	}
 }

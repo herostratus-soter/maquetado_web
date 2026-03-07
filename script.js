@@ -104,7 +104,7 @@ var TEXTOS_WEB = {
         "h5_3": "Diseño de carátula, lomo y contracarátula.",
         "li_3_1": "Portada para impresión física.",
         "li_3_2": "Portada para edición digital.",
-        "li_3_3": "Portada con lineamientos de Amazon KDP.",
+        "li_3_3": "Portadas diseñadas para Amazon KDP.",
         "li_3_4": "Diseño de solapas y separadores.",
         "li_3_5": "cotiza <br> diseño de cubierta",
 
