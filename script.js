@@ -173,6 +173,11 @@ var TEXTOS_WEB = {
         "h1": "Portafolio de proyectos",
         "h3_1": "Muestra de algunos trabajos realizados.",
 
+        // # SECCIÓN Extra: Introducción del Portafolio
+        "h2_0": "Un estilo para cada obra",
+        "h3_0": "Variedad de recursos técnicos.",
+        "p_0": "Cada proyecto editorial es distinto y requiere un tratamiento gráfico propio. Para lograrlo, se trabaja con distintas técnicas que abarcan desde el dibujo tradicional y la ilustración digital, hasta la edición fotográfica, el modelado 3D y herramientas de inteligencia artificial. Así, cada autor consigue una identidad visual que realmente acompañe a su libro.",
+
         // # SECCIÓN 2: Novela El Secreto
         "h2_1": "El deseo en que te habito",
         "h3_2": "Novela de Diego Jaramillo.",
@@ -183,6 +188,11 @@ var TEXTOS_WEB = {
         "h3_3": "Trilogía de Eduardo Gómez Gutiérrez.",
         "p_2": "Destaca en particular de esta entrega el arte de la portada que se realizó con técnicas de modelado y renderizado 3D. Trabajo completo para impresión.",
 
+        // # SECCIÓN 4: Introducción del Portafolio
+        "h2_01": "El aroma de la mariposa",
+        "h3_01": "Poemario de Leonardo Ahumada.",
+        "p_01": "Además del trabajo de maquetado en formato lírico, el autor proporcionó un dibujo propio que, tras un minucioso proceso de edición, fue utilizado como arte final para la portada.",
+
         // # SECCIÓN 4: Ensayo Académico
         "h2_3": "Remembranzas de Mariquita",
         "h3_4": "Relatos de Yolanda Henao Velásquez.",
@@ -191,12 +201,12 @@ var TEXTOS_WEB = {
         // # SECCIÓN 5: Novela El Escriba
         "h2_4": "El amor no es un merengue",
         "h3_5": "Novela de Ángel Esguerra Naizir.",
-        "p_4": "Para la elaboración del diseño editorial se tuvo en cuenta la dicotomía en la metaficción que plantea el autor, viéndose reflejada en la dualidad de la portada y contraportada, y en el cuidado de las señales en el texto del manuscrito.",
+        "p_4": "Para la elaboración del diseño editorial se tuvo en cuenta la dicotomía en la metaficción que plantea el autor, la cual se refleja en la dualidad de la portada y la contraportada, así como en el cuidado de las señales en el texto del manuscrito.",
 
         // # SECCIÓN 6: Saga Reinos de Luz
         "h2_5": "Donde nace el karma",
         "h3_6": "Novela de ciencia ficción de Ennio Prada.",
-        "p_5": "Dada la gran carga simbólica de la obra, a petición del autor, se tuvo el cuidado de representar todos los elementos por medio de una ilustración digital para la portada. Se hizo maquetación y diagramación para publicación impresa.",
+        "p_5": "Dada su carga simbólica, y a petición del autor, los elementos de la obra se plasmaron en una ilustración digital para la portada. Además, se realizó la maquetación y diagramación para litografía.",
     },
     "footer": {
         // # SECCIÓN Slider Bajo

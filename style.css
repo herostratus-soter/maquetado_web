@@ -781,7 +781,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 
-	padding: clamp(78px, 15.6vmin, 234px) 10vw;
+	padding: clamp(100px, 20vmin, 300px) 10vw;
 	border-radius: 0;
 	background-color: transparent;
 }
@@ -805,7 +805,7 @@ ul {
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	padding: clamp(78px, 15.6vmin, 234px) 10vw;
+	padding: clamp(100px, 20vmin, 300px) 10vw;
 	border-radius: 0;
 
 	/* Removed double borders as requested */
@@ -1029,7 +1029,7 @@ ul {
 	.totalbox-anchoreducido,
 	.totalbox-anchoreducido2 {
 		flex-direction: column !important;
-		padding: 9.75vh 5vw;
+		padding: 12vh 5vw;
 	}
 
 	.totalbox__1,
