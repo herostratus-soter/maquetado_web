@@ -215,7 +215,7 @@ var TEXTOS_WEB = {
 
         // # SECCIÓN 1: Pie de página
         "a_1": "WhatsApp",
-        "a_2": "disegnosergio@gmail.com",
+        "a_2": "sergio.editorial.design@gmail.com",
         "h5_1": "Servicios de diseño, arte y maquetación para proyectos editoriales.<br>Todos los derechos reservados sobre diseños, logosímbolos y recursos gráficos.",
         "p_1": "&copy; Sergio Cruz | Diseño Editorial."
     }

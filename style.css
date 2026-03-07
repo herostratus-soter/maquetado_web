@@ -735,8 +735,8 @@ ul {
 
 	text-decoration: none;
 	text-align: center;
-	letter-spacing: 0.2vw;
-	font-family: 'Cinzel', serif;
+	letter-spacing: normal;
+	font-family: 'Old Standard TT', serif;
 	font-weight: 400;
 	font-size: 2.5vmin;
 	color: var(--ink-black);
@@ -759,11 +759,10 @@ ul {
 
 .button_redes span {
 	color: inherit;
-	font-family: 'Cinzel', serif;
+	font-family: 'Old Standard TT', serif;
 	font-weight: 400;
 	font-size: inherit;
-	letter-spacing: 0.2vw;
-	text-transform: uppercase;
+	letter-spacing: normal;
 }
 
 
