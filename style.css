@@ -300,7 +300,6 @@ header {
 	position: relative;
 	padding: 0.5vh 0.5vh 0.5vh 0.8vh;
 
-	text-decoration: none;
 	color: var(--ink-black);
 	font-family: 'Cinzel', serif;
 	font-weight: 400;
@@ -313,10 +312,8 @@ header {
 	background-color: transparent;
 	/* Removed black background highlight */
 	color: #000;
-	text-decoration: none;
 	padding: 0.5vh 0.5vh 0.5vh 0.8vh;
 	/* Match non-hover padding to prevent jumping */
-	border-radius: 0;
 }
 
 
@@ -327,7 +324,6 @@ header {
 	position: relative;
 	padding: 0.5vh 3vmin 0.8vh 3vmin;
 
-	text-decoration: none;
 	color: #000;
 	font-family: 'Cinzel', serif;
 	font-weight: 400;
@@ -347,7 +343,6 @@ header {
 
 	background-color: #000;
 	color: #fff;
-	border-radius: 0;
 	padding: 0.5vh 4vmin 0.8vh 4vmin;
 }
 
@@ -355,14 +350,12 @@ header {
 	/* Keep border for the "button-like" nav item as original had it */
 	border: 2px solid #000;
 
-	border-radius: 0;
 	position: relative;
 	display: flex;
 
 	position: relative;
 	padding: 0.5vh 3vmin 0.8vh 3vmin;
 
-	text-decoration: none;
 	color: #000;
 	font-family: 'Cinzel', serif;
 	font-weight: 400;
@@ -375,7 +368,6 @@ header {
 
 	background-color: #000;
 	color: #fff;
-	border-radius: 0;
 	padding: 0.5vh 4vmin 0.8vh 4vmin;
 }
 
@@ -437,7 +429,6 @@ header.sticky .separador {
 
 	background-color: #fff;
 	border: 2px solid #000;
-	border-radius: 0;
 	backdrop-filter: blur(3px);
 
 	transition-duration: 0.4s;
@@ -509,7 +500,6 @@ body {
 h1 {
 	position: relative;
 	margin: 0 0 1.5vh 0 !important;
-	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.1vw;
 	font-family: 'Playfair Display', serif;
@@ -525,7 +515,6 @@ h1 {
 h2 {
 	position: relative;
 	margin: 0 0 1.5vh 0 !important;
-	text-decoration: none;
 	color: var(--ink-black);
 	/*letter-spacing: 0.2vw;*/
 	font-family: 'Playfair Display', serif;
@@ -550,7 +539,6 @@ h3 {
 	position: relative;
 	margin: 0 0 5vh 0 !important;
 	padding: 0 0 0 2.5vw;
-	text-decoration: none;
 	color: var(--ink-black);
 	/* Text in black as requested */
 	letter-spacing: 0.1vw;
@@ -565,7 +553,6 @@ h3 {
 h4 {
 	position: relative;
 	margin: 0 0 1.5vh 0 !important;
-	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.2vw;
 	font-family: 'Cinzel', serif;
@@ -580,7 +567,6 @@ h4 {
 h5 {
 	position: relative;
 	margin: 0 0 3vh 0 !important;
-	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.2vw;
 	font-family: 'Old Standard TT', serif;
@@ -591,7 +577,6 @@ h5 {
 p {
 	position: relative;
 	margin: 0 0 3vh 0 !important;
-	text-decoration: none;
 	color: var(--ink-black);
 	letter-spacing: 0.02vw;
 	font-family: 'Old Standard TT', serif;
@@ -636,13 +621,6 @@ ul {
 	text-decoration: underline;
 }
 
-.green
-
-/* green*/
-	{
-	color: var(--ink-black);
-}
-
 .dgreen {
 	color: var(--sepia-accent);
 }
@@ -652,13 +630,6 @@ ul {
 /* brown*/
 	{
 	color: var(--sepia-accent);
-}
-
-.lg
-
-/*light gray*/
-	{
-	color: var(--ink-grey);
 }
 
 
@@ -672,7 +643,6 @@ ul {
 	margin: 3vmin 0vmin 0vmin 3vmin;
 	background-color: transparent;
 
-	text-decoration: none;
 	text-align: center;
 	color: #000;
 	letter-spacing: 0.2vw;
@@ -683,7 +653,6 @@ ul {
 
 	/* Simple solid border */
 	border: 2px solid #000;
-	border-radius: 0;
 	transition-duration: 0.4s;
 }
 
@@ -702,7 +671,6 @@ ul {
 	margin: 3vmin 0vmin 0vmin 3vmin;
 	padding: 0.7vmax;
 
-	text-decoration: none;
 	text-align: center;
 	letter-spacing: 0.2vw;
 
@@ -712,7 +680,6 @@ ul {
 	/* Removed bold */
 	color: #000;
 
-	border-radius: 0;
 	transition-duration: 0.4s;
 }
 
@@ -733,7 +700,6 @@ ul {
 	margin: 1vmax 0 1vmax 0;
 	padding: 0.7vmax;
 
-	text-decoration: none;
 	text-align: center;
 	letter-spacing: normal;
 	font-family: 'Old Standard TT', serif;
@@ -741,7 +707,6 @@ ul {
 	font-size: 2.5vmin;
 	color: var(--ink-black);
 
-	border-radius: 0;
 	transition-duration: 0.4s;
 }
 
@@ -783,7 +748,6 @@ ul {
 	align-items: center;
 
 	padding: clamp(100px, 20vmin, 300px) 10vw;
-	border-radius: 0;
 	background-color: transparent;
 }
 
@@ -807,7 +771,6 @@ ul {
 	justify-content: center;
 	align-items: center;
 	padding: clamp(100px, 20vmin, 300px) 10vw;
-	border-radius: 0;
 
 	/* Removed double borders as requested */
 	border: none;
@@ -911,7 +874,6 @@ ul {
 	padding: clamp(78px, 15.6vmin, 234px) 2vw;
 	margin: 0 15vw 0 15vw;
 
-	border-radius: 0;
 }
 
 .totalbox-anchoreducido h2,
@@ -957,7 +919,6 @@ ul {
 	padding: clamp(78px, 15.6vmin, 234px) 0;
 	margin: 0 7.5vw 0 7.5vw;
 
-	border-radius: 0;
 
 }
 
@@ -1113,7 +1074,6 @@ ul {
 	margin: 2vh 1%;
 	padding: 6vh 2vw;
 
-	border-radius: 0;
 	/* Texture but no border */
 	background-color: var(--dark-bg);
 	color: var(--text-white);
@@ -1192,7 +1152,6 @@ ul {
 	cursor: pointer;
 	transition-duration: 0.4s;
 	text-transform: uppercase;
-	text-decoration: none;
 }
 
 .buy-btn:hover {
@@ -1228,7 +1187,6 @@ ul {
 	{
 	font-family: 'Old Standard TT', serif;
 
-	text-decoration: none;
 	position: relative;
 	margin: 1vh 0.5vmax 1vh 0.5vmax;
 	color: var(--ink-black);
@@ -1248,7 +1206,6 @@ ul {
 	{
 	font-family: 'Old Standard TT', serif;
 
-	text-decoration: none;
 	position: relative;
 	margin: 1vh 0.5vmax 1vh 0.5vmax;
 	color: var(--sepia-accent);
@@ -1402,7 +1359,6 @@ footer {
 	width: 100%;
 	min-width: 250px;
 
-	border-radius: 0;
 	/* Clean frame - thickened */
 	border: 2px solid var(--ink-black);
 	padding: 28px;
@@ -1420,7 +1376,6 @@ footer {
 
 .img_svg2 {
 	position: relative;
-	border-radius: 0;
 	padding: 28px;
 	background-color: #fff;
 	border: 2px solid var(--ink-black);
@@ -1489,7 +1444,6 @@ img {
 	white-space: nowrap;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
-	border-radius: 0;
 	border: 2px solid var(--ink-black);
 }
 
@@ -1520,7 +1474,6 @@ img {
 .slider2-nav a {
 	width: 1vmax;
 	height: 1vmax;
-	border-radius: 0;
 	background-color: transparent;
 	border: 2px solid var(--ink-black);
 	transform: rotate(45deg);
@@ -1552,13 +1505,11 @@ img {
 	/* Ancho deseado de la imagen */
 	margin: 0 auto;
 	/* Centra la galería */
-	border-radius: 0;
 }
 
 .galeria img {
 	max-width: 100%;
 	height: auto;
-	border-radius: 0;
 	/* Universal frame style */
 	border: 2px solid var(--ink-black);
 	padding: 28px;
@@ -1683,7 +1634,6 @@ img {
 	width: 100%;
 
 	height: 70vh;
-	border-radius: 0;
 	border: none;
 	animation: animate_slider01 10s infinite;
 }
@@ -1696,7 +1646,6 @@ img {
 	width: 100%;
 
 	height: 70vh;
-	border-radius: 0;
 	border: none;
 	animation: animate_slider02 10s infinite;
 }
@@ -1709,7 +1658,6 @@ img {
 	width: 100%;
 
 	height: 70vh;
-	border-radius: 0;
 	border: none;
 	animation: animate_slider03 10s infinite;
 }
@@ -1722,7 +1670,6 @@ img {
 	width: 100%;
 
 	height: 70vh;
-	border-radius: 0;
 	border: none;
 	animation: animate_slider04 10s infinite;
 }
@@ -1735,7 +1682,6 @@ img {
 	width: 100%;
 
 	height: 70vh;
-	border-radius: 0;
 	border: none;
 	animation: animate_slider05 10s infinite;
 }
@@ -1754,7 +1700,6 @@ img {
 	width: 100%;
 
 	height: 100vh;
-	border-radius: 0;
 	border: none;
 	animation: animate_slider1 40s infinite;
 }
@@ -1765,7 +1710,6 @@ img {
 	background-size: cover;
 	width: 100%;
 	height: 90vh;
-	border-radius: 0;
 	border: none;
 	animation: animate_slider3 40s infinite;
 }
@@ -1778,7 +1722,6 @@ img {
 	width: 100%;
 
 	height: 800px;
-	border-radius: 0;
 	border: none;
 	animation: animate_slidermedio1 20s infinite;
 }
@@ -1860,7 +1803,6 @@ img {
 	padding: 2.925vmax 10vmax 2.925vmax 4vmax;
 
 	min-width: 250px;
-	border-radius: 0;
 	backdrop-filter: blur(3px);
 	/* Glass effect */
 }
