@@ -16,13 +16,10 @@ font-family: 'Playfair Display', serif;
 }
 
 :root {
-	--paper-bg: #ece5d5;
-	/* Old paper color */
-	--paper-light: #f7f4ed;
-	/* Lighter paper */
+
 	--ink-black: #1a1a1a;
 	--ink-grey: #3a3a3a;
-	--sepia-accent: #5c4d3c;
+
 	--dark-bg: #1a1a1a;
 	--text-white: #ffffff;
 	--wine-color: #a31d5b;
@@ -84,13 +81,11 @@ header {
 .header_logo {
 	height: 6vh;
 	/* Logo solid black by default as requested */
-	filter: brightness(0);
 	transition: filter 0.4s ease;
 }
 
 .header__nav--divlogo:hover .header_logo {
 	/* Sophisticated thin/outlined look on hover */
-	filter: opacity(0.6) contrast(15) grayscale(1) brightness(0.4);
 }
 
 
@@ -1359,13 +1354,9 @@ footer {
 	width: 100%;
 	min-width: 250px;
 
-	/* Clean frame - thickened */
 	border: 2px solid var(--ink-black);
 	padding: 28px;
-	/* Photo frame gap - thickened distance */
-	background-color: #fff;
-	filter: sepia(0.3) contrast(1.1);
-	/* Slight vintage feel */
+
 }
 
 .img_svg {
@@ -1383,7 +1374,6 @@ footer {
 	width: 100%;
 	justify-content: center;
 	/*min-width: 250px;*/
-	filter: sepia(0.5);
 }
 
 
@@ -1391,13 +1381,11 @@ footer {
 	position: relative;
 	width: 13vmax;
 	/* Logo solid black by default */
-	filter: brightness(0);
 	transition: filter 0.4s ease;
 }
 
 .logo_footer:hover {
 	/* Sophisticated thin/outlined look on hover */
-	filter: opacity(0.6) contrast(15) grayscale(1) brightness(0.4);
 }
 
 .img_redes {
@@ -1405,7 +1393,6 @@ footer {
 	width: 2vmax;
 	margin: 0 1vw 0 0;
 	/* Make total black as requested */
-	filter: brightness(0);
 }
 
 
@@ -1458,7 +1445,6 @@ img {
 	scroll-snap-align: start;
 
 	object-fit: cover;
-	filter: sepia(0.2);
 }
 
 .slider2-nav {
@@ -1514,7 +1500,6 @@ img {
 	border: 2px solid var(--ink-black);
 	padding: 28px;
 	background-color: #fff;
-	filter: sepia(0.2) contrast(1.1);
 }
 
 /* Reduce height of portfolio images */
@@ -1793,7 +1778,7 @@ img {
 	width: 100%;
 
 	/* Semi-transparent white background */
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255, 255, 255, 0.56);
 
 	/* No border */
 	border: none;
@@ -1803,7 +1788,7 @@ img {
 	padding: 2.925vmax 10vmax 2.925vmax 4vmax;
 
 	min-width: 250px;
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(10px);
 	/* Glass effect */
 }
 
@@ -1867,137 +1852,47 @@ img {
 
 @keyframes animate_slider1 {
 	0% {
-		background-image: url(img/sl6.jpg);
+		background-image: url(img/5panel_1.webp);
 		background-size: cover;
 		background-position: center;
 	}
 
-	8.3333333% {
+	12% {
 		background-position: right;
-	}
-
-	16.666666666% {
-		background-image: url(img/sl1.jpg);
-		background-size: cover;
 	}
 
 	25% {
-		background-position: left;
-	}
-
-	33.3333333333% {
-		background-image: url(img/sl2.jpg);
+		background-image: url(img/5panel_2.webp);
 		background-size: cover;
 	}
 
-	41.66666% {
-		background-position: right;
+	37% {
+		background-position: left;
 	}
 
 	50% {
-		background-image: url(img/sl3.jpg);
+		background-image: url(img/5panel_3.webp);
 		background-size: cover;
 	}
 
-	58.33333% {
-		background-position: left;
+	62% {
+		background-position: right;
 	}
-
-	64.66666% {
-		background-image: url(img/sl4.jpg);
-		background-size: cover;
-	}
-
 
 	75% {
-		background-position: right;
-	}
-
-	83.3% {
-		background-image: url(img/sl5.jpg);
+		background-image: url(img/5panel_4.webp);
 		background-size: cover;
 	}
 
-	91.66% {
+	87% {
 		background-position: left;
 	}
-
 
 	100% {
-		background-image: url(img/sl6.jpg);
+		background-image: url(img/5panel_1.webp);
 		background-size: cover;
-		background-position: center;
 	}
 }
-
-
-@keyframes animate_slider3 {
-
-
-	0% {
-		background-image: url(img/04_sl_grande_1.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-
-	8.3333333% {
-		background-position: right;
-	}
-
-	16.666666666% {
-		background-image: url(img/04_sl_grande_4.jpg);
-		background-size: cover;
-	}
-
-	25% {
-		background-position: left;
-	}
-
-	33.3333333333% {
-		background-image: url(img/04_sl_grande_2.jpg);
-		background-size: cover;
-	}
-
-	41.66666% {
-		background-position: right;
-	}
-
-	50% {
-		background-image: url(img/04_sl_grande_5.jpg);
-		background-size: cover;
-	}
-
-	58.33333% {
-		background-position: left;
-	}
-
-	64.66666% {
-		background-image: url(img/04_sl_grande_8.jpg);
-		background-size: cover;
-	}
-
-
-	75% {
-		background-position: right;
-	}
-
-	83.3% {
-		background-image: url(img/04_sl_grande_7.jpg);
-		background-size: cover;
-	}
-
-	91.66% {
-		background-position: left;
-	}
-
-
-	100% {
-		background-image: url(img/04_sl_grande_1.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-}
-
 
 /*...................................
 .....................................
@@ -2006,7 +1901,7 @@ img {
 
 @keyframes animate_slider01 {
 	0% {
-		background-image: url(img/07_portada1.jpg);
+		background-image: url(img/5panel_7.webp);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2016,7 +1911,7 @@ img {
 	}
 
 	50% {
-		background-image: url(img/07_portada1.jpg);
+		background-image: url(img/5panel_7.webp);
 		background-size: cover;
 	}
 
@@ -2025,7 +1920,7 @@ img {
 	}
 
 	100% {
-		background-image: url(img/07_portada1.jpg);
+		background-image: url(img/5panel_7.webp);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2033,7 +1928,7 @@ img {
 
 @keyframes animate_slider02 {
 	0% {
-		background-image: url(img/07_portada2.jpg);
+		background-image: url(img/5panel_6.webp);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2043,7 +1938,7 @@ img {
 	}
 
 	50% {
-		background-image: url(img/07_portada2.jpg);
+		background-image: url(img/5panel_6.webp);
 		background-size: cover;
 	}
 
@@ -2052,7 +1947,7 @@ img {
 	}
 
 	100% {
-		background-image: url(img/07_portada2.jpg);
+		background-image: url(img/5panel_6.webp);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2060,7 +1955,7 @@ img {
 
 @keyframes animate_slider03 {
 	0% {
-		background-image: url(img/07_portada3.jpg);
+		background-image: url(img/5panel_8.webp);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2070,7 +1965,7 @@ img {
 	}
 
 	50% {
-		background-image: url(img/07_portada3.jpg);
+		background-image: url(img/5panel_8.webp);
 		background-size: cover;
 	}
 
@@ -2079,15 +1974,16 @@ img {
 	}
 
 	100% {
-		background-image: url(img/07_portada3.jpg);
+		background-image: url(img/5panel_8.webp);
 		background-size: cover;
 		background-position: center;
 	}
 }
 
+/* servicio */
 @keyframes animate_slider04 {
 	0% {
-		background-image: url(img/07_portada4.jpg);
+		background-image: url(img/5panel_5.webp);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2097,7 +1993,7 @@ img {
 	}
 
 	50% {
-		background-image: url(img/07_portada4.jpg);
+		background-image: url(img/5panel_5.webp);
 		background-size: cover;
 	}
 
@@ -2106,15 +2002,16 @@ img {
 	}
 
 	100% {
-		background-image: url(img/07_portada4.jpg);
+		background-image: url(img/5panel_5.webp);
 		background-size: cover;
 		background-position: center;
 	}
 }
+
 
 @keyframes animate_slider05 {
 	0% {
-		background-image: url(img/07_portada5.jpg);
+		background-image: url(img/5panel_9.webp);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2124,7 +2021,7 @@ img {
 	}
 
 	50% {
-		background-image: url(img/07_portada5.jpg);
+		background-image: url(img/5panel_9.webp);
 		background-size: cover;
 	}
 
@@ -2133,56 +2030,13 @@ img {
 	}
 
 	100% {
-		background-image: url(img/07_portada5.jpg);
+		background-image: url(img/5panel_9.webp);
 		background-size: cover;
 		background-position: center;
 	}
 }
 
 
-@keyframes animate_slidermedio1 {
-	0% {
-		background-image: url(img/03_1soft_1.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-
-	14% {
-		background-image: url(img/03_1soft_2.jpg);
-		background-size: cover;
-	}
-
-	28% {
-		background-image: url(img/03_1soft_3.jpg);
-		background-size: cover;
-	}
-
-	42% {
-		background-image: url(img/03_1soft_4.jpg);
-		background-size: cover;
-	}
-
-	56% {
-		background-image: url(img/03_1soft_5.jpg);
-		background-size: cover;
-	}
-
-	70% {
-		background-image: url(img/03_1soft_6.jpg);
-		background-size: cover;
-	}
-
-	84% {
-		background-image: url(img/03_1soft_7.jpg);
-		background-size: cover;
-	}
-
-	100% {
-		background-image: url(img/03_1soft_1.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-}
 
 /* Responsividad general de botones en vistas móviles verticales */
 @media (max-width: 768px) {
