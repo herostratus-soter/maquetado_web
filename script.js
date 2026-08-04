@@ -276,7 +276,7 @@ var TEXTOS_WEB = {
         "a_1": "WhatsApp",
         "link_a_1": "https://wa.me/573202815952?text=Hola,%20estuve%20viendo%20sus%20servicios%20editoriales%20y%20quisiera%20hacer%20una%20consulta.",
         "a_2": "editorial@mocarabe.com",
-        "link_a_2": "mailto:editorial@mocarabe.com"
+        "link_a_2": "mailto:editorial@mocarabe.com",
         "h5_1": "Servicios de diseño, arte y maquetación para proyectos editoriales.<br>Todos los derechos reservados sobre diseños, logosímbolos y recursos gráficos.",
         "p_1": "&copy; Mocárabe | Diseño Editorial."
     }
