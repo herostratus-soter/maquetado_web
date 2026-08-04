@@ -273,7 +273,7 @@ var TEXTOS_WEB = {
         "h3_7": "Escribir es el acto de amar una historia lo suficiente como para obligarla a existir para siempre.",
 
         // # SECCIÓN 1: Pie de página
-        "a_1": "WhatsApp",
+        "a_1": "320 281 5952",
         "link_a_1": "https://wa.me/573202815952?text=Hola,%20estuve%20viendo%20sus%20servicios%20editoriales%20y%20quisiera%20hacer%20una%20consulta.",
         "a_2": "editorial@mocarabe.com",
         "link_a_2": "mailto:editorial@mocarabe.com",
