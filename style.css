@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Jura:wght@300..700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poiret+One&display=swap');
 
 * {
-	word-break: normal !important;
-	word-wrap: normal !important;
-	overflow-wrap: normal !important;
-	-webkit-hyphens: none !important;
-	-moz-hyphens: none !important;
-	-ms-hyphens: none !important;
-	hyphens: none !important;
+	word-break: normal;
+	word-wrap: normal;
+	overflow-wrap: normal;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 }
 
 :root {
@@ -153,7 +153,7 @@ header {
 		z-index: 10003;
 		margin: 0;
 		padding: 0;
-		display: block !important;
+		display: block;
 	}
 
 	/* Delay effects for nav items for sophisticated feel */
@@ -190,20 +190,20 @@ header {
 
 	/* Responsive Font Size Boost */
 	p {
-		font-size: 1.15rem !important;
+		font-size: 1.15rem;
 	}
 
 	h3 {
-		font-size: 1.25rem !important;
+		font-size: 1.25rem;
 	}
 
 	h5 {
-		font-size: 1rem !important;
+		font-size: 1rem;
 	}
 
 	.buy,
 	.buy2 {
-		font-size: 1.1rem !important;
+		font-size: 1.1rem;
 	}
 }
 
@@ -279,11 +279,10 @@ header {
 }
 
 /* Botón inicio: oculto en escritorio, visible solo en hamburguesa */
-.header__nav-- .nav-inicio-mobile,
-.nav-inicio-mobile { display: none !important; }
+.header__nav--.nav-inicio-mobile { display: none; }
 
 @media (max-width: 768px), (max-height: 500px) and (max-width: 950px) {
-	.nav-inicio-mobile { display: flex !important; }
+	.header__nav--.nav-inicio-mobile { display: flex; }
 }
 
 .header__nav-- {
@@ -334,7 +333,6 @@ header {
 	background-color: var(--ink-black);
 	color: #fff;
 }
-
 
 
 header.sticky {
@@ -390,7 +388,6 @@ header.sticky .separador {
 }
 
 
-
 .whatsapp-button:hover {
 	background-color: var(--whatsapp-green);
 	border: 2px solid var(--whatsapp-green);
@@ -411,13 +408,11 @@ header.sticky .separador {
 }
 
 
-
 .hidden {
 	display: none;
 }
 
 /*header.....................................................*/
-
 
 
 /*body........................................................*/
@@ -454,7 +449,7 @@ body {
 
 h1 {
 	position: relative;
-	margin: 0 0 1.5vh 0 !important;
+	margin: 0 0 1.5vh 0;
 	color: var(--ink-black);
 	letter-spacing: 0.1vw;
 	font-family: var(--font-title);
@@ -468,7 +463,7 @@ h1 {
 
 h2 {
 	position: relative;
-	margin: 0 0 1.5vh 0 !important;
+	margin: 0 0 1.5vh 0;
 	color: var(--ink-black);
 	font-family: var(--font-title);
 	font-weight: 700;
@@ -487,7 +482,7 @@ h2 {
 
 h3 {
 	position: relative;
-	margin: 0 0 5vh 0 !important;
+	margin: 0 0 5vh 0;
 	padding: 0 0 0 2.5vw;
 	color: var(--ink-black);
 	letter-spacing: 0.1vw;
@@ -501,7 +496,7 @@ h3 {
 
 h4 {
 	position: relative;
-	margin: 0 0 1.5vh 0 !important;
+	margin: 0 0 1.5vh 0;
 	color: var(--ink-black);
 	letter-spacing: 0.2vw;
 	font-family: var(--font-subtitle);
@@ -513,7 +508,7 @@ h4 {
 
 h5 {
 	position: relative;
-	margin: 0 0 3vh 0 !important;
+	margin: 0 0 3vh 0;
 	color: var(--ink-black);
 	letter-spacing: 0.2vw;
 	font-family: var(--font-subtitle);
@@ -524,7 +519,7 @@ h5 {
 
 p {
 	position: relative;
-	margin: 0 0 3vh 0 !important;
+	margin: 0 0 3vh 0;
 	color: var(--ink-black);
 	letter-spacing: 0.02vw;
 	font-family: var(--font-body);
@@ -649,8 +644,6 @@ ul {
 }
 
 
-
-
 /* boxes design ...................................................*/
 
 .totalbox {
@@ -668,7 +661,6 @@ ul {
 	padding: clamp(100px, 20vmin, 300px) 10vw;
 	background-color: transparent;
 }
-
 
 
 .totalbox-dark {
@@ -704,25 +696,25 @@ ul {
 .totalbox-dark .dg,
 .totalbox-dark .g,
 .totalbox-dark .bl {
-	color: var(--text-light) !important;
+	color: var(--text-light);
 }
 
 .totalbox-dark h3 {
-	color: var(--champagne-gold) !important;
+	color: var(--champagne-gold);
 	border-left: var(--line-subt) solid var(--champagne-gold);
 }
 
 .totalbox-dark .button_w,
 .totalbox-dark .button_br {
-	color: var(--text-light) !important;
-	border-color: var(--text-light) !important;
+	color: var(--text-light);
+	border-color: var(--text-light);
 }
 
 .totalbox-dark .button_w:hover,
 .totalbox-dark .button_br:hover {
-	background-color: var(--button-bg-light) !important;
-	border: 2px solid var(--button-bg-light)!important;
-	color: var(--dark-bg) !important;
+	background-color: var(--button-bg-light);
+	border: 2px solid var(--button-bg-light);
+	color: var(--dark-bg);
 }
 
 
@@ -755,10 +747,6 @@ ul {
 
 	padding: 3.9vmin 5vw 3.9vmin 5vw;
 }
-
-
-
-
 
 
 .totalbox-anchoreducido {
@@ -796,27 +784,26 @@ ul {
 .totalbox-anchoreducido .dg,
 .totalbox-anchoreducido .g,
 .totalbox-anchoreducido .bl {
-	color: var(--text-light) !important;
+	color: var(--text-light);
 }
 
 .totalbox-anchoreducido h3 {
-	color: var(--champagne-gold) !important;
+	color: var(--champagne-gold);
 	border-left: var(--line-subt) solid var(--champagne-gold);
 }
 
 .totalbox-anchoreducido .button_w,
 .totalbox-anchoreducido .button_br {
-	color: var(--text-light) !important;
-	border-color: var(--text-light) !important;
+	color: var(--text-light);
+	border-color: var(--text-light);
 }
 
 .totalbox-anchoreducido .button_w:hover,
 .totalbox-anchoreducido .button_br:hover {
-	background-color: var(--button-bg-light) !important;
-	border: 2px solid var(--button-bg-light)!important;
-	color: var(--dark-bg) !important;
+	background-color: var(--button-bg-light);
+	border: 2px solid var(--button-bg-light);
+	color: var(--dark-bg);
 }
-
 
 
 .totalbox-anchoreducido2 {
@@ -834,9 +821,6 @@ ul {
 	padding: clamp(78px, 15.6vmin, 234px) 0;
 	margin: 0 10vw 0 10vw;
 }
-
-
-
 
 
 .totalbox__1 {
@@ -901,7 +885,7 @@ ul {
 	.totalbox-dark,
 	.totalbox-anchoreducido,
 	.totalbox-anchoreducido2 {
-		flex-direction: column !important;
+		flex-direction: column;
 		padding: 12vh 5vw;
 	}
 
@@ -942,34 +926,27 @@ ul {
 
 /* Ensure totalbox__0 uses same margins as standard elements */
 .totalbox__0 h2 {
-	margin-bottom: 1.5vh !important;
+	margin-bottom: 1.5vh;
 }
 
 .totalbox__0 h3 {
-	margin-top: 0 !important;
-	margin-bottom: 5vh !important;
-	padding-left: 0 !important;
-	border-left: none !important;
+	margin-top: 0;
+	margin-bottom: 5vh;
+	padding-left: 0;
+	border-left: none;
 	border-bottom: var(--line-body) solid var(--wine-color);
 	display: inline-block;
 	/* Make border span only text width */
-	width: auto !important;
+	width: auto;
 	/* Override width: 100% */
 	padding-bottom: 1vh;
 }
 
 .totalbox__0 p {
-	margin-top: 0 !important;
-	margin-bottom: 3vh !important;
-}
-
-
-.totalbox__0 p {
+	margin-top: 0;
+	margin-bottom: 3vh;
 	text-align: center;
 }
-
-
-
 
 
 .buy-pair {
@@ -1058,9 +1035,9 @@ ul {
 	padding: 0.7vmax 1.5vmax;
 	margin-top: 3vh;
 	text-align: center;
-	color: var(--text-light) !important;
+	color: var(--text-light);
 	background-color: transparent;
-	border: 2px solid var(--text-light) !important;
+	border: 2px solid var(--text-light);
 	font-family: var(--font-button);
 	font-weight: 700;
 	font-size: clamp(16px, 2.2vmin, 22px);
@@ -1071,9 +1048,9 @@ ul {
 }
 
 .buy-btn:hover {
-	background-color: var(--button-bg-light) !important;
-	border: 2px solid var(--button-bg-light)!important;
-	color: var(--dark-bg) !important;
+	background-color: var(--button-bg-light);
+	border: 2px solid var(--button-bg-light);
+	color: var(--dark-bg);
 }
 
 .totalbox__1_buy h4,
@@ -1082,17 +1059,8 @@ ul {
 .totalbox__1_buy .dgreen,
 .totalbox__1_buy .buy,
 .totalbox__1_buy .buy2 {
-	color: var(--text-light) !important;
+	color: var(--text-light);
 }
-
-
-
-.totalbox__1_buy img {
-	/* Sin filtro: mostrar los colores originales del SVG */
-}
-
-
-
 
 
 .buy {
@@ -1120,9 +1088,6 @@ ul {
 }
 
 
-
-
-
 .img_svg3
 
 /*buy*/
@@ -1132,13 +1097,6 @@ ul {
 	width: 2.5vmax;
 	margin: 20px;
 }
-
-
-
-
-
-
-/*.....body.....................................*/
 
 
 /*.....footer.....................................*/
@@ -1185,7 +1143,7 @@ footer {
 	letter-spacing: 0.02vw;
 	font-size: clamp(12px, 1.8vmin, 18px);
 	line-height: 1.25;
-	margin: 0 !important;
+	margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -1218,10 +1176,6 @@ footer {
 	background: var(--ink-black);
 	border-bottom: none;
 }
-
-
-/*......................................................*/
-
 
 
 .img_vertical {
@@ -1282,24 +1236,8 @@ footer {
 
 
 img {
-	scroll-margin-top: 11vh
-		/*!important*/
-	;
+	scroll-margin-top: 11vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*slider_pro....................................................................
@@ -1307,20 +1245,6 @@ img {
 ...................................................................
 .....................................................................
 ....................................................................*/
-
-
-
-
-
-
-
-
-
-/*..................................................
-....................................................
-...................................................*/
-
-
 
 
 .galeria {
@@ -1428,18 +1352,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*slider_auto....................................................................
 .................................................................
 ...................................................................
@@ -1510,11 +1422,6 @@ img {
 }
 
 
-/*........................................
-..........................................
-.........................................*/
-
-
 .slideralto1 {
 	position: relative;
 	background-image: url(img/pry01/a3_1.jpg);
@@ -1526,10 +1433,6 @@ img {
 	border: none;
 	animation: animate_slider1 40s infinite;
 }
-
-
-
-
 
 
 .sliderbox_bajo {
@@ -1620,7 +1523,7 @@ img {
 .sliderbox__into--violet>*:first-child,
 .sliderbox__into--orange>*:first-child,
 .sliderbox__into--blue>*:first-child {
-	margin-top: 0 !important;
+	margin-top: 0;
 }
 
 .totalbox__1>*:last-child,
@@ -1633,7 +1536,7 @@ img {
 .sliderbox__into--violet>*:last-child,
 .sliderbox__into--orange>*:last-child,
 .sliderbox__into--blue>*:last-child {
-	margin-bottom: 0 !important;
+	margin-bottom: 0;
 }
 
 .sliderbox__into--green *:not(.button_w):not(.button_br),
@@ -1642,7 +1545,7 @@ img {
 .sliderbox__into--violet *:not(.button_w):not(.button_br),
 .sliderbox__into--orange *:not(.button_w):not(.button_br),
 .sliderbox__into--blue *:not(.button_w):not(.button_br) {
-	color: var(--ink-black) !important;
+	color: var(--ink-black);
 }
 
 .sliderbox__into--green h3,
@@ -1651,7 +1554,7 @@ img {
 .sliderbox__into--violet h3,
 .sliderbox__into--orange h3,
 .sliderbox__into--blue h3 {
-	border-left: var(--line-subt) solid var(--wine-color) !important;
+	border-left: var(--line-subt) solid var(--wine-color);
 }
 
 /* Redundant classes mapped to the same style above to overwrite them */
@@ -1665,8 +1568,6 @@ img {
 
 /* Merged into above */
 
-
-/*................................................*/
 
 @keyframes animate_slider1 {
 	0% {
@@ -1712,10 +1613,6 @@ img {
 	}
 }
 
-/*...................................
-.....................................
-....................................
-....................................*/
 
 @keyframes animate_slider01 {
 	0% {
@@ -1855,22 +1752,21 @@ img {
 }
 
 
-
 /* Responsividad general de botones en vistas móviles verticales */
 @media (max-width: 768px) {
 	.button_redes {
-		font-size: 3.75vmin !important;
-		padding: 1.05vmax !important;
+		font-size: 3.75vmin;
+		padding: 1.05vmax;
 	}
 
 	.button_w,
 	.button_br {
-		font-size: 4.95vmin !important;
-		padding: 1.05vmax !important;
+		font-size: 4.95vmin;
+		padding: 1.05vmax;
 	}
 
 	.buy-btn {
-		font-size: clamp(20px, 4vmin, 27px) !important;
-		padding: 1.05vmax 2.25vmax !important;
+		font-size: clamp(20px, 4vmin, 27px);
+		padding: 1.05vmax 2.25vmax;
 	}
 }

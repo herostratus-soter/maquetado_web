@@ -303,7 +303,18 @@ function cargarTextos() {
         var id = el.getAttribute('data-text-id');
         var texto = obtenerTexto(textos, id);
         if (texto) {
-            var targetEl = el.querySelector(':scope > span') || el;
+            // Buscar span hijo directo para texto; si el elemento tiene hijos
+            // no-textuales (img, svg, etc.) y no tiene span, crear uno
+            var targetEl = el.querySelector(':scope > span');
+            if (!targetEl) {
+                var tieneHijosGraficos = el.querySelector(':scope > img, :scope > svg, :scope > picture, :scope > video');
+                if (tieneHijosGraficos) {
+                    targetEl = document.createElement('span');
+                    el.appendChild(targetEl);
+                } else {
+                    targetEl = el;
+                }
+            }
             if (texto.includes('<')) {
                 targetEl.innerHTML = texto;
             } else {
@@ -365,8 +376,31 @@ function showSection(sectionId) {
     var target = document.getElementById(sectionId);
     if (target) target.classList.remove('hidden');
 
+    // Inicializar galerías nuevas y refrescar las existentes
+    if (target) {
+        initGalerias(target);
+        $(target).find('.slick-initialized').slick('setPosition');
+    }
+
     // Scroll al inicio
     window.scrollTo(0, 0);
+}
+
+// Inicializa Slick en galerías con más de 1 imagen dentro de un contenedor
+function initGalerias(container) {
+    $(container).find('.galeria').not(':has(.slick-initialized)').each(function () {
+        if ($(this).children('img').length > 1) {
+            $(this).slick({
+                centerMode: true,
+                centerPadding: '0',
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                arrows: true,
+                dots: true
+            });
+        }
+    });
 }
 
 // ============================================================
@@ -381,18 +415,6 @@ $(document).ready(function () {
     var currentSection = localStorage.getItem('currentSection') || 'servicios_editoriales';
     showSection(currentSection);
 
-    // Inicializar Slick Slider en galerías con más de una imagen
-    $('.galeria').each(function () {
-        if ($(this).children('img').length > 1) {
-            $(this).slick({
-                centerMode: true,
-                centerPadding: '0',
-                slidesToShow: 1,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                arrows: true,
-                dots: true
-            });
-        }
-    });
+    // Inicializar galerías del footer y de la sección visible
+    initGalerias(document.body);
 });
