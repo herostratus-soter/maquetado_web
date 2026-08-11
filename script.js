@@ -71,28 +71,28 @@ var TEXTOS_WEB = {
         "h3_3": "El cuidado del manuscrito.",
         "p_2": "Antes de iniciar la maquetación, es importante contar con una revisión exhaustiva. A través de la alianza con la escritora Amparo Rozo se enmiendan errores gramaticales o de puntuación, reescribiendo posibles oraciones confusas en un lenguaje claro y bien estructurado.",
         "a_1": "cotizar corrección de estilo",
-        "link_a_1": "https://wa.link/irxg7t",
+        "link_a_1": "https://wa.me/573202815952?text=Hola,%20me%20gustar%C3%ADa%20cotizar%20la%20correcci%C3%B3n%20de%20estilo%20para%20mi%20manuscrito.",
 
         // # SECCIÓN 4: Paso 2
         "h2_3": "2. Trámites y registros",
         "h3_4": "Protección legal y comercial.",
         "p_3": "Se proporciona la asesoría necesaria para gestionar el ISBN y formalizar el registro de los derechos de autor. Este paso salvaguarda la propiedad intelectual y facilita la comercialización oficial de la obra.",
         "a_2": "cotizar diligenciamiento",
-        "link_a_2": "https://wa.link/irxg7t",
+        "link_a_2": "https://wa.me/573202815952?text=Hola,%20requiero%20asesor%C3%ADa%20para%20tr%C3%A1mites%20y%20registros%20de%20mi%20obra.",
 
         // # SECCIÓN 5: Paso 3
         "h2_4": "3. Maquetación",
         "h3_5": "Puesta en página.",
         "p_4": "La principal tarea para dar forma al libro consta de estructurar el texto e insertar apropiadamente los elementos gráficos. Al respetar jerarquías y márgenes de diseño, se garantiza una lectura limpia y agradable a la vista.",
         "a_3": "cotizar maquetación",
-        "link_a_3": "https://wa.link/irxg7t",
+        "link_a_3": "https://wa.me/573202815952?text=Hola,%20me%20interesa%20cotizar%20la%20maquetaci%C3%B3n%20de%20mi%20libro.",
 
         // # SECCIÓN 6: Paso 4
         "h2_5": "4. Arte y portada",
         "h3_6": "Identidad visual del libro.",
         "p_5": "Abarca el diseño completo de la carátula y las ilustraciones del interior, si resulta pertinente. El gran objetivo es evocar la esencia literaria del libro a primera vista y destacarlo sobre otras obras.",
         "a_4": "cotizar diseño de cubierta",
-        "link_a_4": "https://wa.link/irxg7t",
+        "link_a_4": "https://wa.me/573202815952?text=Hola,%20quisiera%20cotizar%20el%20dise%C3%B1o%20de%20portada%20e%20identidad%20visual.",
 
         // # SECCIÓN 7: Paso 5
         "h2_6": "5. Impresión o Amazon KDP",
@@ -303,10 +303,11 @@ function cargarTextos() {
         var id = el.getAttribute('data-text-id');
         var texto = obtenerTexto(textos, id);
         if (texto) {
+            var targetEl = el.querySelector(':scope > span') || el;
             if (texto.includes('<')) {
-                el.innerHTML = texto;
+                targetEl.innerHTML = texto;
             } else {
-                el.textContent = texto;
+                targetEl.textContent = texto;
             }
         }
 
@@ -342,11 +343,45 @@ function initStickyHeader() {
     });
 }
 
-// Inicialización
+// ============================================================
+// NAVEGACIÓN POR SECCIONES
+// ============================================================
+
+// Muestra la sección indicada y oculta las demás
+function showSection(sectionId) {
+    // Cerrar menú móvil si está abierto
+    var nav = document.getElementById('main-nav');
+    var btn = document.getElementById('hamburger-btn');
+    if (nav) nav.classList.remove('active');
+    if (btn) btn.classList.remove('active');
+
+    // Guardar sección actual en localStorage
+    localStorage.setItem('currentSection', sectionId);
+
+    // Ocultar todas las secciones y mostrar la seleccionada
+    document.querySelectorAll('.section').forEach(function (section) {
+        section.classList.add('hidden');
+    });
+    var target = document.getElementById(sectionId);
+    if (target) target.classList.remove('hidden');
+
+    // Scroll al inicio
+    window.scrollTo(0, 0);
+}
+
+// ============================================================
+// INICIALIZACIÓN
+// ============================================================
+
 $(document).ready(function () {
     cargarTextos();
     initStickyHeader();
 
+    // Mostrar sección guardada o servicios_editoriales por defecto
+    var currentSection = localStorage.getItem('currentSection') || 'servicios_editoriales';
+    showSection(currentSection);
+
+    // Inicializar Slick Slider en galerías con más de una imagen
     $('.galeria').each(function () {
         if ($(this).children('img').length > 1) {
             $(this).slick({
