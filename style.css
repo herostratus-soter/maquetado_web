@@ -447,7 +447,8 @@ body {
 	}
 }
 
-h1 {
+h1,
+.h1-style {
 	position: relative;
 	margin: 0 0 1.5vh 0;
 	color: var(--ink-black);
@@ -458,7 +459,15 @@ h1 {
 	text-transform: uppercase;
 	border-bottom: none;
 	padding-bottom: 0;
-	margin-bottom: 0;
+	margin-bottom: clamp(14px, 2.2vh, 26px);
+}
+
+/* Espaciado óptimo entre títulos y subtítulos en las cajas de cabecera de sección */
+.sliderbox_alto h1,
+.sliderbox_alto h2,
+.sliderbox_bajo h1,
+.sliderbox_bajo h2 {
+	margin-bottom: clamp(14px, 2.2vh, 26px);
 }
 
 h2 {
